@@ -1,0 +1,112 @@
+/* Paletton : http://paletton.com/palette.php?uid=3421d0ktgdhiso5o3itAS8ANk4u */
+html{
+    background-color:#F5F5F5;
+    color:#545454;
+}
+
+nav {
+    background-color:#474486;
+}
+
+.sidenav{
+    background-color:#474486;
+}
+
+.sidenav li>a{
+    color:white!important;
+}
+
+.brand-logo{
+    padding-left:15px!important;
+}
+
+#about-section .container{
+    padding-top: 40px;
+}
+
+#about-title{
+    margin-bottom:40px;
+}
+
+@media only screen and (max-width: 992px)
+{
+    #about-title{
+        text-align:center;
+    }
+}
+
+.main-pic{
+    min-width:200px;
+    width: 45%;
+}
+
+.project-card{
+    cursor:pointer;
+}
+
+.colored-section{
+    background-color: #89B14B;
+}
+
+.ux-title {
+    color:white;
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden; 
+    padding: 0;
+  }
+  
+  .tags li {
+    float: left; 
+  }
+  
+  .tag {
+    background: #C05451;
+    cursor: default;
+    border-radius: 15px 5px 5px 15px;
+    color: white;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 15px 10px 0 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+  }
+  
+  .tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  }
+
+section{
+    min-height:600px;
+}
+
+.cv-thumbnail{
+    width:50%;
+}
+
+footer{
+    background-color:#474486!important;
+}
+
+.footer-copyright{
+    background-color: #282467!important;
+}
+
+footer .link-icon{
+    width:24px;
+    margin-right:15px;
+}
