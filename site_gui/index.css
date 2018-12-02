@@ -48,8 +48,8 @@ nav {
     background-color: #89B14B;
 }
 
-.ux-title {
-    color:white;
+.colored-section h4{
+    color: white;
 }
 
 .tags {
@@ -65,7 +65,6 @@ nav {
   
   .tag {
     background: #C05451;
-    cursor: default;
     border-radius: 15px 5px 5px 15px;
     color: white;
     display: inline-block;
@@ -95,7 +94,16 @@ section{
 }
 
 .cv-thumbnail{
-    width:50%;
+    width:100%;
+}
+
+.ref{
+    height:200px;
+}
+
+.ref img{
+    width:100%;
+    max-width:250px;
 }
 
 footer{
