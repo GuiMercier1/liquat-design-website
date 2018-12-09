@@ -9,7 +9,9 @@ $(document).ready(function () {
 
     let options = {};
 
-    console.log($('.sidenav').sidenav(options));
+    $('.sidenav').sidenav(options);
+    $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
 
     manageUXProjects();
     manageOtherProjects();
@@ -24,29 +26,29 @@ const uxProjects = [
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
-        id:"ouioui"
+        id: "ouioui"
     },
     {
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
-        id:"ouioui"
+        id: "ouioui"
     },
     {
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
-        id:"ouioui"
+        id: "ouioui"
     },
     {
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
-        id:"ouioui"
+        id: "ouioui"
     },
 ];
 
-function createProjectDisplay(project) {
+function createProjectDisplay(project, displayOnSmallScreen) {
 
     let keywordsHTML = '';
 
@@ -59,9 +61,10 @@ function createProjectDisplay(project) {
         keywordsHTML += "</ul>"
     }
 
+    let displayClass = displayOnSmallScreen ? "" : "hide-on-small-only";
 
     let htmlContent =
-        '<div class="col s12 m3">'
+        '<div class="col s12 m3 ' + displayClass + '">'
         + '<div class="card project-card hoverable">'
         + '<div class="card-image">'
         + '<img src="img/' + project.imageSrc + '">'
@@ -76,7 +79,7 @@ function createProjectDisplay(project) {
 
     var jqElement = $(htmlContent);
 
-    jqElement.click(function(){
+    jqElement.click(function () {
         window.location.href = "projects/" + project.id;
     });
 
@@ -88,8 +91,12 @@ function manageUXProjects() {
 
     projectContainer.empty();
 
-    uxProjects.forEach(function (project) {
-        projectContainer.append(createProjectDisplay(project));
+    var amountOfProjectsInSmallScreens = 2;
+
+    uxProjects.forEach(function (project, index) {
+        var displayOnSmallScreen = index >= amountOfProjectsInSmallScreens;
+
+        projectContainer.append(createProjectDisplay(project, displayOnSmallScreen));
     });
 }
 
@@ -103,28 +110,28 @@ const otherProjects = [
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
         keywords: ["Coucou1", "Coucou2", "Coucou3"],
-        id:"ouioui"
+        id: "ouioui"
     },
     {
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
         keywords: ["Coucou1", "Coucou3"],
-        id:"ouioui"
+        id: "ouioui"
     },
     {
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
         keywords: ["Coucou1", "Coucou2", "Coucou3"],
-        id:"ouioui"
+        id: "ouioui"
     },
     {
         title: "first project",
         imageSrc: "project1.jpg",
         shortDescription: "This is a description",
         keywords: ["Coucou1", "Coucou2", "Coucou3"],
-        id:"ouioui"
+        id: "ouioui"
     },
 ];
 
@@ -132,19 +139,22 @@ function manageOtherProjects() {
     let projectContainer = $("#ux-projects-container");
 
     projectContainer.empty();
+    var amountOfProjectsInSmallScreens = 2;
 
-    otherProjects.forEach(function (project) {
-        projectContainer.append(createProjectDisplay(project));
+    otherProjects.forEach(function (project, index) {
+        var displayOnSmallScreen = index < amountOfProjectsInSmallScreens;
+
+        projectContainer.append(createProjectDisplay(project, displayOnSmallScreen));
     });
 }
 
-// Add a smooth move to the anchored sections from the nav bar
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+// // Add a smooth move to the anchored sections from the nav bar
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
+//         document.querySelector(this.getAttribute('href')).scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
