@@ -13,8 +13,8 @@ $(document).ready(function () {
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
+    manageTitleSlider();
     manageUXProjects();
-    manageOtherProjects();
 });
 
 /********************************
@@ -22,6 +22,30 @@ $(document).ready(function () {
  ********************************/
 
 const uxProjects = [
+    {
+        title: "first project",
+        imageSrc: "project1.jpg",
+        shortDescription: "This is a description",
+        id: "ouioui"
+    },
+    {
+        title: "first project",
+        imageSrc: "project1.jpg",
+        shortDescription: "This is a description",
+        id: "ouioui"
+    },
+    {
+        title: "first project",
+        imageSrc: "project1.jpg",
+        shortDescription: "This is a description",
+        id: "ouioui"
+    },
+    {
+        title: "first project",
+        imageSrc: "project1.jpg",
+        shortDescription: "This is a description",
+        id: "ouioui"
+    },
     {
         title: "first project",
         imageSrc: "project1.jpg",
@@ -100,61 +124,69 @@ function manageUXProjects() {
     });
 }
 
-/************************************
- * OTHER PROJECTS DISPLAY MANAGEMENT
- ***********************************/
+/**
+* Found at http://tobiasahlin.com/moving-letters/#14
+*/
+function manageTitleSlider() {
 
-const otherProjects = [
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        keywords: ["Coucou1", "Coucou2", "Coucou3"],
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        keywords: ["Coucou1", "Coucou3"],
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        keywords: ["Coucou1", "Coucou2", "Coucou3"],
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        keywords: ["Coucou1", "Coucou2", "Coucou3"],
-        id: "ouioui"
-    },
-];
-
-function manageOtherProjects() {
-    let projectContainer = $("#ux-projects-container");
-
-    projectContainer.empty();
-    var amountOfProjectsInSmallScreens = 2;
-
-    otherProjects.forEach(function (project, index) {
-        var displayOnSmallScreen = index < amountOfProjectsInSmallScreens;
-
-        projectContainer.append(createProjectDisplay(project, displayOnSmallScreen));
+    // Wrap every letter in a span
+    $('.ml14 .letters').each(function () {
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
     });
+
+    var animation = anime.timeline(
+        {
+            loop: true
+        })
+        .add({
+            targets: '.ml14 .line',
+            scaleX: [0, 1],
+            opacity: [0.5, 1],
+            easing: "easeInOutExpo",
+            duration: 600
+        }).add({
+            targets: '.ml14 .letter',
+            opacity: [0, 1],
+            translateX: [40, 0],
+            translateZ: 0,
+            scaleX: [0.3, 1],
+            easing: "easeOutExpo",
+            duration: 400,
+            offset: '-=600',
+            delay: function (el, i) {
+                return 150 + 25 * i;
+            }
+        }).add({
+            targets: '.ml14',
+            opacity: 0,
+            duration: 600,
+            easing: "easeOutExpo",
+            delay: 600
+        });
+
+    console.log(animation);
+
+    // We only display one header
+    let index = 0;
+    const amountOfHeaders = 5;
+    displaySelector();
+    var intervalID = setInterval(displaySelector, animation.duration);
+
+    function displaySelector() {
+
+        $(".ml14").hide();
+
+        $(".head-text" + index).show();
+
+        // If it is the last, we stop the animation when the text is fully displayed
+        if (index == (amountOfHeaders - 1)) {
+            setTimeout(function () {
+                animation.pause();
+            }, 2300);
+            clearInterval(intervalID);
+        }
+        else {
+            index++;
+        }
+    }
 }
-
-// // Add a smooth move to the anchored sections from the nav bar
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//         e.preventDefault();
-
-//         document.querySelector(this.getAttribute('href')).scrollIntoView({
-//             behavior: 'smooth'
-//         });
-//     });
-// });

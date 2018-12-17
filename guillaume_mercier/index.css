@@ -23,6 +23,7 @@ nav {
 
 .sidenav{
     background-color:#474486;
+    width:225px;
 }
 
 .sidenav li>a{
@@ -44,13 +45,13 @@ nav {
     padding-top: 40px;
 }
 
-.about-title{
-    margin-bottom:40px;
+.ml14{
+    margin-bottom:50px;
 }
 
 @media only screen and (max-width: 992px)
 {
-    #about-title{
+    #about-title, .job-effect-wrapper{
         text-align:center;
     }
 }
@@ -105,19 +106,21 @@ nav {
     top: 10px;
   }
 
-.parallax-img{
-    width:100%;
+
+.mobile-parallax.parallax-container{
+    height:300px;
 }
 
-@media only screen and (max-width: 992px)
-{
-    .parallax-container{
-        height:300px;
-    }
+.mobile-parallax .parallax-img{
+    width:180%;
+}
 
-    .parallax-img{
-        width:140%;
-    }
+.screen-parallax.parallax-container{
+    height:500px;
+}
+
+.screen-parallax .parallax-img{
+    width:100%;
 }
 
 .cv-thumbnail{
@@ -144,4 +147,37 @@ footer{
 footer .link-icon{
     width:24px;
     margin-right:15px;
+    position: relative;
+    top: 5px;
 }
+
+/* TEXT SLIDER */
+
+.ml14 {
+    font-weight: 200;
+    font-size: 2.3em;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #545454;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
