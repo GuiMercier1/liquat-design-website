@@ -13,7 +13,7 @@
 
 html{
     background-color:white;
-    color:#545454;
+    /* color:#545454; */
     font-family: Karla;
 }
 
@@ -37,21 +37,27 @@ nav {
     bottom: 15px;
 }
 
-#about-section{
-    min-height:700px;
+@media only screen and (min-width: 992px)
+{
+    #about-section{
+        min-height:600px;
+    }
+}
+
+@media only screen and (max-width: 992px)
+{  
+    #about-section{
+        min-height:300px;
+    }
 }
 
 #about-section .container{
     padding-top: 40px;
 }
 
-.ml14{
-    margin-bottom:50px;
-}
-
 @media only screen and (max-width: 992px)
 {
-    #about-title, .job-effect-wrapper{
+    #about-title{
         text-align:center;
     }
 }
@@ -123,9 +129,6 @@ nav {
     width:100%;
 }
 
-.cv-thumbnail{
-    width:100%;
-}
 
 .ref{
     height:200px;
@@ -151,33 +154,60 @@ footer .link-icon{
     top: 5px;
 }
 
-/* TEXT SLIDER */
+/********************
+ * ALL PROJECTS
+ *******************/
 
-.ml14 {
-    font-weight: 200;
-    font-size: 2.3em;
-  }
-  
-  .ml14 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-  }
-  
-  .ml14 .line {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    height: 2px;
-    width: 100%;
-    background-color: #545454;
-    transform-origin: 100% 100%;
-    bottom: 0;
-  }
-  
-  .ml14 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
+.all-projects-button{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+/********************
+ * SKILL SECTION
+ *******************/
+
+#skills-section{
+    min-height:700px;
+}
+
+.skill-header-title{
+    margin-bottom:60px;
+}
+
+.skill-text-col{
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    margin-bottom:40px;
+}
+
+.skill-text{
+    line-height: 35px;
+}
+
+.skill-title{
+    margin-bottom:35px;
+    font-weight: bold;
+}
+
+/********************
+ * HELPERS
+ *******************/
+
+.bold-text{
+    font-weight:bold;
+}
+
+.spaced-text{
+    line-height: 35px;
+}
+
+hr.rule {
+	height: 10px;
+	border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    width: 30%;
+    min-width: 200px;
+
+}
