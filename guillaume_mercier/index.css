@@ -1,4 +1,5 @@
 /* Paletton : http://paletton.com/palette.php?uid=3421d0ktgdhiso5o3itAS8ANk4u */
+
 /* NOTE BLEU COOL 1D84A6 */
 
 @font-face {
@@ -11,66 +12,67 @@
     src: url(fonts/POLYA.otf) format("truetype");
 }
 
-html{
-    background-color:white;
+html {
+    background-color: white;
     /* color:#545454; */
     font-family: Karla;
 }
 
 nav {
-    background-color:#474486;
+    background-color: #474486;
 }
 
-.sidenav{
-    background-color:#474486;
-    width:225px;
+.sidenav {
+    background-color: #474486;
+    width: 225px;
 }
 
-.sidenav li>a{
-    color:white!important;
+.sidenav li>a, .sidenav li>a>i {
+    color: white!important;
 }
 
-.brand-logo{
-    padding-left:15px!important;
+.brand-logo {
+    padding-left: 15px!important;
     font-family: "hammock-rough";
     font-size: 80px!important;
     bottom: 15px;
 }
 
-@media only screen and (min-width: 992px)
-{
-    #about-section{
-        min-height:600px;
+@media only screen and (min-width: 992px) {
+    #about-section {
+        min-height: 600px;
     }
 }
 
-@media only screen and (max-width: 992px)
-{  
-    #about-section{
-        min-height:300px;
+@media only screen and (max-width: 992px) {
+    #about-section {
+        min-height: 300px;
     }
 }
 
-#about-section .container{
+#about-section .container {
     padding-top: 40px;
 }
 
-@media only screen and (max-width: 992px)
-{
-    #about-title{
-        text-align:center;
+@media only screen and (max-width: 992px) {
+    #about-title {
+        text-align: center;
     }
 }
 
-.main-pic{
+.main-pic {
     width: 70%;
 }
 
-.project-card{
-    cursor:pointer;
+.title-location {
+    margin-top: 40px;
 }
 
-.colored-section{
+.project-card {
+    cursor: pointer;
+}
+
+.colored-section {
     background-color: #F5F5F5;
     /* background-color: rgb(137, 177, 75, 0.4); */
 }
@@ -78,16 +80,16 @@ nav {
 .tags {
     list-style: none;
     margin: 0;
-    overflow: hidden; 
+    overflow: hidden;
     padding: 0;
-  }
-  
-  .tags li {
-    float: left; 
-  }
-  
-  .tag {
-    background: #C05451;
+}
+
+.tags li {
+    float: left;
+}
+
+.tag {
+    background-color: #474486;
     border-radius: 15px 5px 5px 15px;
     color: white;
     display: inline-block;
@@ -98,10 +100,10 @@ nav {
     margin: 15px 10px 0 0;
     text-decoration: none;
     -webkit-transition: color 0.2s;
-  }
-  
-  .tag::before {
-    background: #fff;
+}
+
+.tag::before {
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
     content: '';
@@ -110,46 +112,44 @@ nav {
     position: absolute;
     width: 6px;
     top: 10px;
-  }
-
-
-.mobile-parallax.parallax-container{
-    height:300px;
 }
 
-.mobile-parallax .parallax-img{
-    width:180%;
+.mobile-parallax.parallax-container {
+    height: 300px;
 }
 
-.screen-parallax.parallax-container{
-    height:500px;
+.mobile-parallax .parallax-img {
+    width: 180%;
 }
 
-.screen-parallax .parallax-img{
-    width:100%;
+.screen-parallax.parallax-container {
+    height: 500px;
 }
 
-
-.ref{
-    height:200px;
+.screen-parallax .parallax-img {
+    width: 100%;
 }
 
-.ref img{
-    width:100%;
-    max-width:250px;
+.ref {
+    height: 200px;
 }
 
-footer{
-    background-color:#474486!important;
+.ref img {
+    width: 100%;
+    max-width: 250px;
 }
 
-.footer-copyright{
+footer {
+    background-color: #474486!important;
+}
+
+.footer-copyright {
     background-color: #282467!important;
 }
 
-footer .link-icon{
-    width:24px;
-    margin-right:15px;
+footer .link-icon {
+    width: 24px;
+    margin-right: 15px;
     position: relative;
     top: 5px;
 }
@@ -158,36 +158,35 @@ footer .link-icon{
  * ALL PROJECTS
  *******************/
 
-.all-projects-button{
-    margin-top:50px;
-    margin-bottom:50px;
+.all-projects-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
 
 /********************
  * SKILL SECTION
  *******************/
 
-#skills-section{
-    min-height:700px;
+#skills-section {
+    min-height: 700px;
 }
 
-.skill-header-title{
-    margin-bottom:60px;
+.skill-header-title {
+    margin-bottom: 60px;
 }
 
-.skill-text-col{
+.skill-text-col {
     padding-left: 20px!important;
     padding-right: 20px!important;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
-.skill-text{
+.skill-text {
     line-height: 35px;
 }
 
-.skill-title{
-    margin-bottom:35px;
+.skill-title {
+    margin-bottom: 35px;
     font-weight: bold;
 }
 
@@ -195,19 +194,51 @@ footer .link-icon{
  * HELPERS
  *******************/
 
-.bold-text{
-    font-weight:bold;
+.bold-text {
+    font-weight: bold;
 }
 
-.spaced-text{
+.spaced-text {
     line-height: 35px;
 }
 
 hr.rule {
-	height: 10px;
-	border: 0;
+    height: 10px;
+    border: 0;
     box-shadow: 0 10px 10px -10px #8c8b8b inset;
     width: 30%;
     min-width: 200px;
+}
 
+/********************
+ * PORTFOLIO SPECIFIC
+ *******************/
+
+.filters {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.filters li {
+    float: left;
+    padding-bottom:10px;
+}
+
+.filter {
+    background-color: #474486;
+    color: white;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
+
+.filter-selected {
+    background-color: green;
 }

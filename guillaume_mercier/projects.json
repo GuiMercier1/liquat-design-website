@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "title": "first project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["UX", "Web Development"]
+        },
+        {
+            "title": "second project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["UX"]
+        },
+        {
+            "title": "third project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["UX", "Web Development"]
+        },
+        {
+            "title": "fourth project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["Web Development"]
+        },
+        {
+            "title": "fifth project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["UX", "Web Development"]
+        },
+        {
+            "title": "sixth project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["Ah ah ah ah ah"]
+        },
+        {
+            "title": "seventh project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["Ouioui"]
+        },
+        {
+            "title": "eighth project",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "This is a description",
+            "id": "ouioui",
+            "tags": ["Splunk"]
+        }
+    ]
+}
