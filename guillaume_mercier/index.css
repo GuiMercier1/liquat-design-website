@@ -223,7 +223,7 @@ hr.rule {
 
 .filters li {
     float: left;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 .filter {
@@ -241,4 +241,21 @@ hr.rule {
 
 .filter-selected {
     background-color: green;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex .card {
+    height: 94.5%;
+}
+
+.needpopup {
+    padding: 0;
+}
+
+.popup-img-container img {
+    width:100%;
 }

@@ -1,60 +1,116 @@
 {
     "projects": [
         {
-            "title": "first project",
+            "title": "Inov'Apps",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["UX", "Web Development"]
+            "shortDescription": "Conception d'un logiciel de management ludique pour répondre au potentiel isolement des consultants chez le client.",
+            "customer" : "Inovans",
+            "id": "inovapps",
+            "tags": ["UX Design", "Gestion de projet"]
         },
         {
-            "title": "second project",
+            "title": "Site d'Inovans",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["UX"]
+            "shortDescription": "Conception et développement du site de la Digital Factory d'Inovans",
+            "customer": "Inovans",
+            "id": "digital-site",
+            "tags": ["Web Dev"]
         },
         {
-            "title": "third project",
+            "title": "Bien-être au travail",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["UX", "Web Development"]
+            "shortDescription": "Transformation humaine et structurelle de l'agence pour améliorer le bien-être des consultants",
+            "customer": "Inovans",
+            "id": "draw-your-inovans",
+            "tags": ["Happiness Management"]
         },
         {
-            "title": "fourth project",
+            "title": "Elektroscop",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["Web Development"]
+            "shortDescription": "Aide à la conception et au positionnement stratégique pour la sortie du site Elektroscop",
+            "customer": "Elektroscop",
+            "id": "elektroscop",
+            "tags": ["UX Design", "Business Management", "Web Marketing"]
         },
         {
-            "title": "fifth project",
+            "title": "Formation Splunk",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["UX", "Web Development"]
+            "shortDescription": "Écriture et présentation d'une formation à la conception de dashboards sous Splunk",
+            "customer": "GFI",
+            "id": "splunk-formation",
+            "tags": ["UX Design", "Web Dev", "Splunk", "Formation"]
         },
         {
-            "title": "sixth project",
+            "title": "Monitoring pour Airbus",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["Ah ah ah ah ah"]
+            "shortDescription": "Conception et développement de dashboards Splunk pour monitorer les applications critiques",
+            "customer": "Airbus",
+            "id": "splunk-airbus",
+            "tags": ["UX Design", "Web Dev", "Splunk"]
         },
         {
-            "title": "seventh project",
+            "title": "Lead Analytics",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["Ouioui"]
+            "shortDescription": "Conception et développement d'une appli web pour stocker, analyser et visualiser des données de laboratoire",
+            "customer": "Sycomore",
+            "id": "lead-analytics",
+            "tags": ["UX Design", "Web Dev", "NodeJS"]
         },
         {
-            "title": "eighth project",
+            "title": "Lead Sample",
             "imageSrc": "project1.jpg",
-            "shortDescription": "This is a description",
-            "id": "ouioui",
-            "tags": ["Splunk"]
+            "shortDescription": "Conception et développement d'une appli web de gestion des échantillons d'un laboratoire",
+            "customer": "Sycomore",
+            "id": "lead-sample",
+            "tags": ["UX Design", "Web Dev", "NodeJS"]
+        },
+        {
+            "title": "Lead Catalog",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "Conception et développement d'une appli web de catalogage et de recherche sémantique de fichiers à haute volumétrie",
+            "customer": "Sycomore",
+            "id": "lead-catalog",
+            "tags": ["UX Design", "Web Dev", "Elastic Search"]
+        },
+        {
+            "title": "TODO CAPGEMINI",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "TODO CAPGEMINI TODO CAPGEMINI TODO CAPGEMINI TODO CAPGEMINI",
+            "customer": "Sycomore",
+            "id": "TODO CAPGEMINI",
+            "tags": ["UX Design", "Web Dev", "Elastic Search"]
+        },
+        {
+            "title": "I-Care",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "Conception d'un Serious Game (tablette) pour aider à l’optimisation de la consommation énergétique à domicile",
+            "customer": "Efficiencia",
+            "id": "i-care",
+            "tags": ["UX Design", "Persuasive Apps"]
+        },
+        {
+            "title": "PIXEE",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "Conception d'un outil de saisie thermique de bâtiments",
+            "customer": "Efficiencia",
+            "id": "pixee",
+            "tags": ["UX Design"]
+        },
+        {
+            "title": "NAIAD",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "Conception et développement d'une interface Web pour visualiser les prévisions de consommation énergétique de bâtiments",
+            "customer": "Efficiencia",
+            "id": "naiad",
+            "tags": ["UX Design", "Web Dev"]
+        },
+        {
+            "title": "IntuiFace",
+            "imageSrc": "project1.jpg",
+            "shortDescription": "Implémentation d'un moteur physique dans le logiciel de présentation IntuiFace",
+            "customer": "IntuiLab",
+            "id": "intuiface",
+            "tags": ["UX Design", "Web Dev"]
         }
     ]
 }
