@@ -13,7 +13,6 @@ $(document).ready(function () {
 
     $('.sidenav').sidenav(options);
     $('.parallax').parallax();
-    $('.scrollspy').scrollSpy();
 
     $.getJSON("projects.json", function (data) {
         projects = data.projects;

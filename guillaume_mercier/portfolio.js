@@ -127,7 +127,7 @@ function createProjectHTML(project) {
     }
 
     let htmlContent =
-        '<div class="col s12 m3">'
+        '<div class="col s12 m4">'
         + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
         + '<div class="card-image">'
         + '<img src="img/' + project.imageSrc + '">'
