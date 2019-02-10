@@ -214,6 +214,10 @@ hr.rule {
  * PORTFOLIO SPECIFIC
  *******************/
 
+#projects-list .col {
+    margin-left: initial;
+}
+
 .filters {
     list-style: none;
     margin: 0;
@@ -254,8 +258,21 @@ hr.rule {
 
 .needpopup {
     padding: 0;
+    border-radius: 0px 20px 0px 0px;
+    overflow: hidden;
+    padding:5px;
+}
+
+.popup-img-container{
+    border-radius: 0px 20px 0px 0px;
+    overflow: hidden;
 }
 
 .popup-img-container img {
-    width:100%;
+    width: 100%;
+}
+
+.needpopup .needpopup_remover {
+    font-size: 50px;
+    color: #7d7d7d;
 }

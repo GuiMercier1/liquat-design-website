@@ -5,6 +5,8 @@
  * Thanks !
  ******************************************************/
 
+let projects;
+
 $(document).ready(function () {
 
     let options = {};
@@ -13,63 +15,17 @@ $(document).ready(function () {
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
-    manageUXProjects();
+    $.getJSON("projects.json", function (data) {
+        projects = data.projects;
+
+        manageUXProjects();
+    });
+
 });
 
 /********************************
  * UX PROJECTS DISPLAY MANAGEMENT
  ********************************/
-
-const projects = [
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-    {
-        title: "first project",
-        imageSrc: "project1.jpg",
-        shortDescription: "This is a description",
-        id: "ouioui"
-    },
-];
 
 function createProjectDisplay(project, displayOnSmallScreen) {
 

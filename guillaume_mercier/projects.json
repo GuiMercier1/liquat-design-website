@@ -2,113 +2,145 @@
     "projects": [
         {
             "title": "Inov'Apps",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/inovans.png",
             "shortDescription": "Conception d'un logiciel de management ludique pour répondre au potentiel isolement des consultants chez le client.",
             "customer" : "Inovans",
+            "company" : "Inovans",
             "id": "inovapps",
             "tags": ["UX Design", "Gestion de projet"]
         },
         {
             "title": "Site d'Inovans",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/digital_factory.png",
             "shortDescription": "Conception et développement du site de la Digital Factory d'Inovans",
             "customer": "Inovans",
+            "company" : "Inovans",
             "id": "digital-site",
             "tags": ["Web Dev"]
         },
         {
             "title": "Bien-être au travail",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/happiness.png",
             "shortDescription": "Transformation humaine et structurelle de l'agence pour améliorer le bien-être des consultants",
             "customer": "Inovans",
+            "company" : "Inovans",
             "id": "draw-your-inovans",
             "tags": ["Happiness Management"]
         },
         {
             "title": "Elektroscop",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/elektroscop.png",
             "shortDescription": "Aide à la conception et au positionnement stratégique pour la sortie du site Elektroscop",
             "customer": "Elektroscop",
+            "company" : "Freelance",
             "id": "elektroscop",
             "tags": ["UX Design", "Business Management", "Web Marketing"]
         },
         {
             "title": "Formation Splunk",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/splunk.png",
             "shortDescription": "Écriture et présentation d'une formation à la conception de dashboards sous Splunk",
             "customer": "GFI",
+            "company" : "Inovans",
             "id": "splunk-formation",
             "tags": ["UX Design", "Web Dev", "Splunk", "Formation"]
         },
         {
             "title": "Monitoring pour Airbus",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/splunk_dashboard.png",
             "shortDescription": "Conception et développement de dashboards Splunk pour monitorer les applications critiques",
             "customer": "Airbus",
+            "company" : "Inovans",
             "id": "splunk-airbus",
             "tags": ["UX Design", "Web Dev", "Splunk"]
         },
         {
             "title": "Lead Analytics",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/lead_analytics.png",
             "shortDescription": "Conception et développement d'une appli web pour stocker, analyser et visualiser des données de laboratoire",
             "customer": "Sycomore",
+            "company": "Freelance",
             "id": "lead-analytics",
-            "tags": ["UX Design", "Web Dev", "NodeJS"]
+            "tags": ["UX Design", "Web Dev", "NodeJS", "AngularJS"]
         },
         {
             "title": "Lead Sample",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/lead_sample.png",
             "shortDescription": "Conception et développement d'une appli web de gestion des échantillons d'un laboratoire",
             "customer": "Sycomore",
+            "company" : "Freelance",
             "id": "lead-sample",
-            "tags": ["UX Design", "Web Dev", "NodeJS"]
+            "tags": ["UX Design", "Web Dev", "NodeJS", "AngularJS"]
         },
         {
             "title": "Lead Catalog",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/lead_catalog.png",
             "shortDescription": "Conception et développement d'une appli web de catalogage et de recherche sémantique de fichiers à haute volumétrie",
             "customer": "Sycomore",
+            "company" : "Freelance",
             "id": "lead-catalog",
-            "tags": ["UX Design", "Web Dev", "Elastic Search"]
+            "tags": ["UX Design", "Web Dev", "Elastic Search", "AngularJS"]
         },
         {
-            "title": "TODO CAPGEMINI",
-            "imageSrc": "project1.jpg",
-            "shortDescription": "TODO CAPGEMINI TODO CAPGEMINI TODO CAPGEMINI TODO CAPGEMINI",
-            "customer": "Sycomore",
-            "id": "TODO CAPGEMINI",
-            "tags": ["UX Design", "Web Dev", "Elastic Search"]
+            "title": "Communication spatiale",
+            "imageSrc": "projects/lander_mars.png",
+            "shortDescription": "Conception et développement d'une interface web permettant de programmer des phases de communication avec un robot spatial.",
+            "customer": "CNRS",
+            "company" : "Capgemini",
+            "id": "spatiale",
+            "tags": ["UX Design", "AngularJS", "Web Dev", "NodeJS"]
+        },
+        {
+            "title": "Appli d'aide à l'achat",
+            "imageSrc": "projects/capgemini.png",
+            "shortDescription": "Conception d'un outil de saisie d'informations et de négociation de prix pour des acheteurs lors de marchés internationaux.",
+            "customer": "Confidentiel",
+            "company" : "Capgemini",
+            "id": "marketing",
+            "tags": ["UX Design"]
+        },
+        {
+            "title": "Doctrines de l'Armée",
+            "imageSrc": "projects/armee_de_terre.png",
+            "shortDescription": "Conception d'une application de gestion et de consultation des doctrines de l'Armée de Terre",
+            "customer": "Armée de Terre",
+            "company" : "Capgemini",
+            "id": "doctrines",
+            "tags": ["UX Design"]
         },
         {
             "title": "I-Care",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/efficiencia.png",
             "shortDescription": "Conception d'un Serious Game (tablette) pour aider à l’optimisation de la consommation énergétique à domicile",
             "customer": "Efficiencia",
+            "company" : "Efficiencia",
             "id": "i-care",
             "tags": ["UX Design", "Persuasive Apps"]
         },
         {
             "title": "PIXEE",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/efficiencia.png",
             "shortDescription": "Conception d'un outil de saisie thermique de bâtiments",
             "customer": "Efficiencia",
+            "company" : "Efficiencia",
             "id": "pixee",
             "tags": ["UX Design"]
         },
         {
             "title": "NAIAD",
-            "imageSrc": "project1.jpg",
+            "imageSrc": "projects/efficiencia.png",
             "shortDescription": "Conception et développement d'une interface Web pour visualiser les prévisions de consommation énergétique de bâtiments",
             "customer": "Efficiencia",
+            "company" : "Efficiencia",
             "id": "naiad",
             "tags": ["UX Design", "Web Dev"]
         },
         {
             "title": "IntuiFace",
-            "imageSrc": "project1.jpg",
-            "shortDescription": "Implémentation d'un moteur physique dans le logiciel de présentation IntuiFace",
-            "customer": "IntuiLab",
+            "imageSrc": "projects/intuiface.png",
+            "shortDescription": "Implémentation d'un moteur physique dans le logiciel de présentation multitouch IntuiFace",
+            "customer": "IntuiFace",
+            "company" : "IntuiFace",
             "id": "intuiface",
             "tags": ["UX Design", "Web Dev"]
         }
