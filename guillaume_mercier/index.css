@@ -256,6 +256,11 @@ hr.rule {
     height: 94.5%;
 }
 
+.card .card-content .card-title {
+    color: #474486;
+    font-weight:bold;
+}
+
 .needpopup {
     padding: 0;
     border-radius: 0px 20px 0px 0px;

@@ -17,7 +17,10 @@ $(document).ready(function () {
     $.getJSON("projects.json", function (data) {
         projects = data.projects;
 
-        manageUXProjects();
+        createPopups();
+        needPopup.init();
+
+        manageProjects();
     });
 
 });
@@ -42,8 +45,8 @@ function createProjectDisplay(project, displayOnSmallScreen) {
     let displayClass = displayOnSmallScreen ? "" : "hide-on-small-only";
 
     let htmlContent =
-        '<div class="col s12 m3 ' + displayClass + '">'
-        + '<div class="card project-card hoverable">'
+        '<div class="col s12 m4 ' + displayClass + '">'
+        + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
         + '<div class="card-image">'
         + '<img src="img/' + project.imageSrc + '">'
         + '</div>'
@@ -57,14 +60,14 @@ function createProjectDisplay(project, displayOnSmallScreen) {
 
     var jqElement = $(htmlContent);
 
-    jqElement.click(function () {
-        window.location.href = "projects/" + project.id;
-    });
+    // jqElement.click(function () {
+    //     window.location.href = "projects/" + project.id;
+    // });
 
     return jqElement;
 }
 
-function manageUXProjects() {
+function manageProjects() {
     let projectContainer = $("#projects-container");
 
     projectContainer.empty();
@@ -72,9 +75,32 @@ function manageUXProjects() {
     var amountOfProjectsInSmallScreens = 2;
 
     projects.forEach(function (project, index) {
-        if (index < 4) {
+        if (index < 3) {
             var displayOnSmallScreen = index < amountOfProjectsInSmallScreens;
             projectContainer.append(createProjectDisplay(project, displayOnSmallScreen));
         }
+    });
+}
+
+function createPopups() {
+    projects.forEach(function (project) {
+
+        let popupHTML = '<div id="' + project.id + '" class="needpopup">'
+            + '<div class="popup-img-container hide-on-small-only">'
+            + '<img src="img/' + project.imageSrc + '" />'
+            + '</div>'
+            + '<div class="row">'
+            + '<div class="col s12"><h4>'
+            + project.title
+            + '</h4></div>'
+            + '</div>'
+            + '<div class="row">'
+            + '<div class="col s12">'
+            + project.shortDescription
+            + '</div>'
+            + '</div>'
+            + '</div>';
+
+        $("#popup-container").append(popupHTML);
     });
 }
