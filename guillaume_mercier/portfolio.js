@@ -10,9 +10,14 @@ let projects = [];
 
 $(document).ready(function () {
 
-    let options = {};
+    $.get("header.html", function (data) {
+        $("#header-container").replaceWith(data);
 
-    $('.sidenav').sidenav(options);
+        var options = {};
+        options.edge = "right";
+        $('.sidenav').sidenav(options);
+    });
+    $('#footer-container').load('footer.html');
 
     $.getJSON("projects.json", function (data) {
         projects = data.projects;
@@ -131,6 +136,7 @@ function createProjectHTML(project) {
         + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
         + '<div class="card-image">'
         + '<img src="img/' + project.imageSrc + '">'
+        + '<div class="card-overlay" style="opacity:' + + project.opacity + '"></div>'
         + '</div>'
         + '<div class="card-content">'
         + '<span class="card-title">' + project.title + '</span>'

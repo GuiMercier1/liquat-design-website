@@ -1,8 +1,13 @@
 $(document).ready(function () {
 
-    let options = {};
+    $.get("header.html", function (data) {
+        $("#header-container").replaceWith(data);
 
-    $('.sidenav').sidenav(options);
+        var options = {};
+        options.edge = "right";
+        $('.sidenav').sidenav(options);
+    });
+    $('#footer-container').load('footer.html');
 
     emailjs.init("user_VSM3AeK2lk1H2vARunueI");
 

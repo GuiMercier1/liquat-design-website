@@ -9,9 +9,15 @@ let projects;
 
 $(document).ready(function () {
 
-    let options = {};
+    $.get("header.html", function (data) {
+        $("#header-container").replaceWith(data);
 
-    $('.sidenav').sidenav(options);
+        var options = {};
+        options.edge = "right";
+        $('.sidenav').sidenav(options);
+    });
+    $('#footer-container').load('footer.html');
+
     $('.parallax').parallax();
 
     $.getJSON("projects.json", function (data) {

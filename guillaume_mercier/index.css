@@ -258,17 +258,17 @@ hr.rule {
 
 .card .card-content .card-title {
     color: #474486;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .needpopup {
     padding: 0;
     border-radius: 0px 20px 0px 0px;
     overflow: hidden;
-    padding:5px;
+    padding: 5px;
 }
 
-.popup-img-container{
+.popup-img-container {
     border-radius: 0px 20px 0px 0px;
     overflow: hidden;
 }
@@ -280,4 +280,16 @@ hr.rule {
 .needpopup .needpopup_remover {
     font-size: 50px;
     color: #7d7d7d;
+}
+
+.card-overlay{
+    position: absolute;
+    top: 0px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover .card-overlay{
+    opacity:0!important;
 }
