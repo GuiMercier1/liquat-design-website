@@ -154,6 +154,11 @@ footer .link-icon {
     top: 5px;
 }
 
+.mail-link{
+    color: #f1770f;
+    font-weight:bold;
+}
+
 /********************
  * ALL PROJECTS
  *******************/
@@ -163,17 +168,13 @@ footer .link-icon {
     margin-bottom: 50px;
 }
 
+.colored-title {
+    color: #f1770f;
+}
+
 /********************
  * SKILL SECTION
  *******************/
-
-#skills-section {
-    min-height: 700px;
-}
-
-.skill-header-title {
-    margin-bottom: 60px;
-}
 
 .skill-text-col {
     padding-left: 20px!important;
@@ -210,6 +211,10 @@ hr.rule {
     min-width: 200px;
 }
 
+.no-bottom {
+    margin-bottom: 0!important;
+}
+
 /********************
  * PORTFOLIO SPECIFIC
  *******************/
@@ -244,7 +249,7 @@ hr.rule {
 }
 
 .filter-selected {
-    background-color: green;
+    background-color: #f1770f;
 }
 
 .flex {
@@ -280,7 +285,7 @@ hr.rule {
     color: #7d7d7d;
 }
 
-.card-overlay{
+.card-overlay {
     position: absolute;
     top: 0px;
     background-color: white;
@@ -288,6 +293,6 @@ hr.rule {
     width: 100%;
 }
 
-.card:hover .card-overlay{
-    opacity:0!important;
+.card:hover .card-overlay {
+    opacity: 0!important;
 }

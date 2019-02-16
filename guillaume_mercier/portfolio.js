@@ -5,19 +5,19 @@
  * Thanks !
  ******************************************************/
 
+$.get("header.html", function (data) {
+    $("#header-container").replaceWith(data);
+
+    var options = {};
+    options.edge = "right";
+    $('.sidenav').sidenav(options);
+});
+$('#footer-container').load('footer.html');
+
 let filters = [];
 let projects = [];
 
 $(document).ready(function () {
-
-    $.get("header.html", function (data) {
-        $("#header-container").replaceWith(data);
-
-        var options = {};
-        options.edge = "right";
-        $('.sidenav').sidenav(options);
-    });
-    $('#footer-container').load('footer.html');
 
     $.getJSON("projects.json", function (data) {
         projects = data.projects;
