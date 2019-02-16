@@ -55,6 +55,7 @@ function createProjectDisplay(project, displayOnSmallScreen) {
         + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
         + '<div class="card-image">'
         + '<img src="img/' + project.imageSrc + '">'
+        + '<div class="card-overlay" style="opacity:' + + project.opacity + '"></div>'
         + '</div>'
         + '<div class="card-content">'
         + '<span class="card-title">' + project.title + '</span>'

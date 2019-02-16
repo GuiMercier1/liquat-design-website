@@ -63,34 +63,36 @@
 
     <div class="section valign-wrapper">
         <div class="container">
-            <div class="row">
-                <div class="input-field col s12 m6 offset-m3">
-                    <input id="name" type="text" class="validate" required="required">
-                    <label for="nameast_name">Name</label>
-                    <span class="helper-text" data-error="John Doe ? C'est bien toi ?"></span>
+            <form id="contact-form">
+                <div class="row">
+                    <div class="input-field col s12 m6 offset-m3">
+                        <input name="name" id="name" type="text" class="validate" required="required">
+                        <label for="nameast_name">Name</label>
+                        <span class="helper-text" data-error="John Doe ? C'est bien toi ?"></span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12 m6 offset-m3">
-                    <input id="email" type="email" class="validate" required="required">
-                    <label for="email">Email</label>
-                    <span class="helper-text" data-error="Pas de mail, pas de chocolat."></span>
+                <div class="row">
+                    <div class="input-field col s12 m6 offset-m3">
+                        <input name="email" id="email" type="email" class="validate" required="required">
+                        <label for="email">Email</label>
+                        <span class="helper-text" data-error="Pas de mail, pas de chocolat."></span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12 m6 offset-m3">
-                    <textarea id="message" class="materialize-textarea" required="required"></textarea>
-                    <label for="message">Message</label>
-                    <span class="helper-text" data-error="Ne soyez pas timide ... :)"></span>
+                <div class="row">
+                    <div class="input-field col s12 m6 offset-m3">
+                        <textarea name="message" id="message" class="materialize-textarea validate" required="required"></textarea>
+                        <label for="message">Message</label>
+                        <span class="helper-text" data-error="Ne soyez pas timide ... :)"></span>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12 m6 offset-m3 mail-input">
-                    <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Envoyer
-                        <i class="material-icons right">send</i>
-                    </button>
+                <div class="row">
+                    <div class="input-field col s12 m6 offset-m3 mail-input">
+                        <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Envoyer
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 

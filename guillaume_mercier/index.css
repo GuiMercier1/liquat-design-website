@@ -263,13 +263,11 @@ hr.rule {
 
 .needpopup {
     padding: 0;
-    border-radius: 0px 20px 0px 0px;
     overflow: hidden;
-    padding: 5px;
+    padding: 20px;
 }
 
 .popup-img-container {
-    border-radius: 0px 20px 0px 0px;
     overflow: hidden;
 }
 
