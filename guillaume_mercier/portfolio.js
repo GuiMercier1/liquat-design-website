@@ -88,6 +88,8 @@ function computeFilters() {
 // Displays the projects according to the set filters
 function displayProjects() {
 
+    let amountOfDisplayedProjects = 0;
+
     $("#projects-list").empty();
 
     let projectHTML;
@@ -111,10 +113,13 @@ function displayProjects() {
         }
 
         if (display) {
+            amountOfDisplayedProjects++;
             projectHTML = createProjectHTML(project);
             $("#projects-list").append(projectHTML);
         }
     });
+
+    $(".projects_amount").html("(" + amountOfDisplayedProjects + ")");
 }
 
 // Creates the project HTML code
