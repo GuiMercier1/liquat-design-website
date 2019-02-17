@@ -11,7 +11,9 @@
             "tags": [
                 "UX Design",
                 "Gestion de projet"
-            ]
+            ],
+            "tasks":["Analyse des besoins", "Analyse de l'existant", "Ateliers de brainstorming", "Maquettage", "Gestion de projet en SCRUM"],
+            "tools":["Axure", "Taiga"]
         },
         {
             "title": "Site d'Inovans",
@@ -23,7 +25,9 @@
             "opacity":0.3,
             "tags": [
                 "Web Dev"
-            ]
+            ],
+            "tasks":["Ateliers Focus Group", "Maquettage"],
+            "tools":["Axure"]
         },
         {
             "title": "Bien-être au travail",
@@ -35,7 +39,9 @@
             "opacity":0.3,
             "tags": [
                 "Happiness Management"
-            ]
+            ],
+            "tasks":["Ateliers Speed Boat", "Ateliers Focus Group", "Création de \"Draw Your Inovans\""],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Elektroscop",
@@ -49,7 +55,9 @@
                 "UX Design",
                 "Business Management",
                 "Web Marketing"
-            ]
+            ],
+            "tasks":["Analyse de l'existant", "Maquettage"],
+            "tools":["Axure"]
         },
         {
             "title": "Formation Splunk",
@@ -64,7 +72,9 @@
                 "Web Dev",
                 "Splunk",
                 "Formation"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Monitoring pour Airbus",
@@ -78,7 +88,9 @@
                 "UX Design",
                 "Web Dev",
                 "Splunk"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Lead Analytics",
@@ -93,7 +105,9 @@
                 "Web Dev",
                 "NodeJS",
                 "AngularJS"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Lead Sample",
@@ -108,7 +122,9 @@
                 "Web Dev",
                 "NodeJS",
                 "AngularJS"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Lead Catalog",
@@ -123,7 +139,9 @@
                 "Web Dev",
                 "Elastic Search",
                 "AngularJS"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Communication spatiale",
@@ -138,7 +156,9 @@
                 "AngularJS",
                 "Web Dev",
                 "NodeJS"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Appli d'aide à l'achat",
@@ -150,7 +170,9 @@
             "opacity":0.3,
             "tags": [
                 "UX Design"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Doctrines de l'Armée",
@@ -162,7 +184,9 @@
             "opacity":0.3,
             "tags": [
                 "UX Design"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "I-Care",
@@ -175,7 +199,9 @@
             "tags": [
                 "UX Design",
                 "Persuasive Apps"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "PIXEE",
@@ -187,7 +213,9 @@
             "opacity":0.3,
             "tags": [
                 "UX Design"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "NAIAD",
@@ -200,7 +228,9 @@
             "tags": [
                 "UX Design",
                 "Web Dev"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "IntuiFace",
@@ -213,7 +243,9 @@
             "tags": [
                 "UX Design",
                 "Web Dev"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         },
         {
             "title": "Un besoin ?",
@@ -228,7 +260,9 @@
                 "Gestion de projet",
                 "Happiness Management",
                 "Web Marketing"
-            ]
+            ],
+            "tasks":["En cours d'écriture..."],
+            "tools":["En cours d'écriture..."]
         }
     ]
 }

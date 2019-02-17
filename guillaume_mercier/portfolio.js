@@ -22,36 +22,16 @@ $(document).ready(function () {
     $.getJSON("projects.json", function (data) {
         projects = data.projects;
 
-        createPopups();
+        projects.forEach(function(project){
+            $("#popup-container").append(createProjectPopup(project));
+        });
+        
         needPopup.init();
 
         computeFilters();
         displayProjects();
     });
 });
-
-function createPopups() {
-    projects.forEach(function (project) {
-
-        let popupHTML = '<div id="' + project.id + '" class="needpopup">'
-            + '<div class="popup-img-container hide-on-small-only">'
-            + '<img src="img/' + project.imageSrc + '" />'
-            + '</div>'
-            + '<div class="row">'
-            + '<div class="col s12"><h4>'
-            + project.title
-            + '</h4></div>'
-            + '</div>'
-            + '<div class="row">'
-            + '<div class="col s12">'
-            + project.shortDescription
-            + '</div>'
-            + '</div>'
-            + '</div>';
-
-        $("#popup-container").append(popupHTML);
-    });
-}
 
 // Creates a list of tags from the retrieved projects
 function computeFilters() {
@@ -114,44 +94,11 @@ function displayProjects() {
 
         if (display) {
             amountOfDisplayedProjects++;
-            projectHTML = createProjectHTML(project);
-            $("#projects-list").append(projectHTML);
+            $("#projects-list").append(createProjectCard(project, true));
         }
     });
 
     $(".projects_amount").html("(" + amountOfDisplayedProjects + ")");
-}
-
-// Creates the project HTML code
-function createProjectHTML(project) {
-
-    let tagsHTML = '';
-
-    if (project.tags != undefined) {
-        tagsHTML = '<ul class="tags">';
-        project.tags.forEach(function (tag) {
-            tagsHTML += '<li><a href="#" class="tag">#' + tag + '</a></li>';
-        });
-
-        tagsHTML += "</ul>"
-    }
-
-    let htmlContent =
-        '<div class="col s12 m4">'
-        + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
-        + '<div class="card-image">'
-        + '<img src="img/' + project.imageSrc + '">'
-        + '<div class="card-overlay" style="opacity:' + + project.opacity + '"></div>'
-        + '</div>'
-        + '<div class="card-content">'
-        + '<span class="card-title">' + project.title + '</span>'
-        + '<p>' + project.shortDescription + '</p>'
-        + tagsHTML
-        + '</div>'
-        + '</div>'
-        + '</div>';
-
-    return htmlContent;
 }
 
 function getFilter(tag) {
