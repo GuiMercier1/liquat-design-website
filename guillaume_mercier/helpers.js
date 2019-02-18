@@ -72,3 +72,10 @@ function createProjectPopup(project) {
 
     return htmlContent;
 }
+
+function hideSpinner() {
+    $(".page-content").show();
+    setTimeout(function () {
+        $(".spinner").fadeOut(600);
+    }, 500);
+}

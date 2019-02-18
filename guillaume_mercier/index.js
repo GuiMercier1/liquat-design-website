@@ -5,35 +5,43 @@
  * Thanks !
  ******************************************************/
 
+let promises = [];
 
-$.get("header.html", function (data) {
-    $("#header-container").replaceWith(data);
+promises.push(new Promise(function (resolve, reject) {
+    $.get("header.html", function (data) {
+        $("#header-container").replaceWith(data);
 
-    var options = {};
-    options.edge = "right";
-    $('.sidenav').sidenav(options);
-});
-$('#footer-container').load('footer.html');
+        var options = {};
+        options.edge = "right";
+        $('.sidenav').sidenav(options);
 
+        resolve();
+    });
+}));
 
 let projects;
 
-$(document).ready(function () {
-    $('.parallax').parallax();
+promises.push(new Promise(function (resolve, reject) {
+    $(document).ready(function () {
+        $('.parallax').parallax();
 
-    $.getJSON("projects.json", function (data) {
-        projects = data.projects;
+        $.getJSON("projects.json", function (data) {
+            projects = data.projects;
 
-        projects.forEach(function(project){
-            $("#popup-container").append(createProjectPopup(project));
+            projects.forEach(function (project) {
+                $("#popup-container").append(createProjectPopup(project));
+            });
+
+            needPopup.init();
+
+            manageProjects();
+
+            resolve();
         });
-        
-        needPopup.init();
-
-        manageProjects();
     });
+}));
 
-});
+Promise.all(promises).then(hideSpinner);
 
 function manageProjects() {
     let projectContainer = $("#projects-container");

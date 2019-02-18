@@ -5,33 +5,52 @@
  * Thanks !
  ******************************************************/
 
-$.get("header.html", function (data) {
-    $("#header-container").replaceWith(data);
+let promises = [];
 
-    var options = {};
-    options.edge = "right";
-    $('.sidenav').sidenav(options);
-});
-$('#footer-container').load('footer.html');
+promises.push(new Promise(function (resolve, reject) {
+    $.get("header.html", function (data) {
+        $("#header-container").replaceWith(data);
+
+        var options = {};
+        options.edge = "right";
+        $('.sidenav').sidenav(options);
+
+        resolve();
+    });
+}))
+
+promises.push(new Promise(function (resolve, reject) {
+    $.get("footer.html", function (data) {
+        $("#footer-container").append(data);
+
+        resolve();
+    });
+}));
 
 let filters = [];
 let projects = [];
 
-$(document).ready(function () {
+promises.push(new Promise(function (resolve, reject) {
+    $(document).ready(function () {
 
-    $.getJSON("projects.json", function (data) {
-        projects = data.projects;
+        $.getJSON("projects.json", function (data) {
+            projects = data.projects;
 
-        projects.forEach(function(project){
-            $("#popup-container").append(createProjectPopup(project));
+            projects.forEach(function (project) {
+                $("#popup-container").append(createProjectPopup(project));
+            });
+
+            needPopup.init();
+
+            computeFilters();
+            displayProjects();
+
+            resolve();
         });
-        
-        needPopup.init();
-
-        computeFilters();
-        displayProjects();
     });
-});
+}));
+
+Promise.all(promises).then(hideSpinner);
 
 // Creates a list of tags from the retrieved projects
 function computeFilters() {
@@ -72,7 +91,6 @@ function displayProjects() {
 
     $("#projects-list").empty();
 
-    let projectHTML;
     let displayByTheWay = allFiltersAreSelected();
 
     projects.forEach(function (project) {
