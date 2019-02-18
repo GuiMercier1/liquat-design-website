@@ -1,13 +1,13 @@
 function createProjectCard(project, displayOnSmallScreen) {
-    let keywordsHTML = '';
+    let tagsHTML = '';
 
-    if (project.keywords != undefined) {
-        keywordsHTML = '<ul class="tags">';
-        project.keywords.forEach(function (keyword) {
-            keywordsHTML += '<li><a href="#" class="tag">#' + keyword + '</a></li>';
+    if (project.tags != undefined) {
+        tagsHTML = '<ul class="tags">';
+        project.tags.forEach(function (tag) {
+            tagsHTML += '<li><a href="#" class="tag">#' + tag + '</a></li>';
         });
 
-        keywordsHTML += "</ul>"
+        tagsHTML += "</ul>"
     }
 
     let displayClass = displayOnSmallScreen ? "" : "hide-on-small-only";
@@ -22,7 +22,7 @@ function createProjectCard(project, displayOnSmallScreen) {
         + '<div class="card-content">'
         + '<span class="card-title">' + project.title + '</span>'
         + '<p>' + project.shortDescription + '</p>'
-        + keywordsHTML
+        + tagsHTML
         + '</div>'
         + '</div>'
         + '</div>';
