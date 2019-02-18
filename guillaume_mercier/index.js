@@ -19,6 +19,14 @@ promises.push(new Promise(function (resolve, reject) {
     });
 }));
 
+promises.push(new Promise(function (resolve, reject) {
+    $.get("footer.html", function (data) {
+        $("#footer-container").append(data);
+
+        resolve();
+    });
+}));
+
 let projects;
 
 promises.push(new Promise(function (resolve, reject) {
