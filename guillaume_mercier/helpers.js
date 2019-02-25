@@ -57,6 +57,11 @@ function createProjectPopup(project) {
         + '</div>'
         + '</div>'
         + '<div class="row">'
+        + '<div class="col s12">'
+        + project.longDescription
+        + '</div>'
+        + '</div>'
+        + '<div class="row">'
         + '<div class="col s6">'
         + "<span class='popup-title'>Client : </span>" + project.customer
         + '</div>'
