@@ -84,6 +84,7 @@ body {
   border-radius: 5px;
   font-weight: 600;
   text-align: left;
+  cursor:default;
 }
 
 .direction-l .flag {
