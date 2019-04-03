@@ -1,3 +1,5 @@
+"use strict";
+
 function createProjectCard(project, displayOnSmallScreen) {
     let tagsHTML = '';
 

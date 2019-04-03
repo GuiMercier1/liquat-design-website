@@ -1,3 +1,5 @@
+"use strict";
+
 let promises = [];
 
 promises.push(new Promise(function (resolve, reject) {

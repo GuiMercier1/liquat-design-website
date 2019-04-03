@@ -4,7 +4,7 @@
  * Please keep me informed at gui.mercier1@gmail.com :)
  * Thanks !
  ******************************************************/
-
+"use strict";
 let promises = [];
 
 promises.push(new Promise(function (resolve, reject) {
