@@ -12,6 +12,7 @@
     src: url(fonts/POLYA.otf) format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
     background-color: white;
     /* color:#545454; */
@@ -89,8 +90,8 @@ nav {
     }
 }
 
-.main-job{
-    color:rgba(0,0,0,0.87)
+.main-job {
+    color: rgba(0, 0, 0, 0.87)
 }
 
 .main-pic {
@@ -204,19 +205,48 @@ footer .link-icon {
  * SKILL SECTION
  *******************/
 
+.skill-intro {
+    color: rgba(0, 0, 0, 0.8);
+    margin-top:35px;
+}
+
+.skill-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .skill-text-col {
-    padding-left: 20px!important;
-    padding-right: 20px!important;
+    padding: 20px!important;
     margin-bottom: 40px;
 }
 
-.skill-text {
-    line-height: 35px;
+.skill-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0, 0.2);
+    height: 100%;
+}
+
+.skill-icon i {
+    font-size: 35px;
+    color: #474486;
+    /* font-weight: bold; */
 }
 
 .skill-title {
-    margin-bottom: 35px;
+    margin-top: 35px;
+    margin-bottom: 0px;
     font-weight: bold;
+    font-size: 20px;
+}
+
+.skill-text {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /********************
@@ -225,10 +255,6 @@ footer .link-icon {
 
 .bold-text {
     font-weight: bold;
-}
-
-.spaced-text {
-    line-height: 30px;
 }
 
 hr.rule {
@@ -359,7 +385,7 @@ hr.rule {
     top: 100px;
     width: 100%;
     background-color: white;
-    z-index:20;
+    z-index: 20;
 }
 
 .sk-cube-grid {
