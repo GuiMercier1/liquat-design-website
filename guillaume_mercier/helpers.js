@@ -15,7 +15,7 @@ function createProjectCard(project, displayOnSmallScreen) {
     let displayClass = displayOnSmallScreen ? "" : "hide-on-small-only";
 
     let htmlContent =
-        '<div class="col s12 m4 ' + displayClass + '">'
+        '<div class="col s12 m4 project-card-col ' + displayClass + '">'
         + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
         + '<div class="card-image">'
         + '<img src="img/' + project.imageSrc + '">'

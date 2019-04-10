@@ -102,6 +102,10 @@ nav {
     margin-top: 40px;
 }
 
+.project-card-col {
+    margin-bottom:20px;
+}
+
 .project-card {
     cursor: pointer;
 }
@@ -193,7 +197,7 @@ footer .link-icon {
  *******************/
 
 .all-projects-button {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -217,7 +221,18 @@ footer .link-icon {
 
 .skill-text-col {
     padding: 20px!important;
-    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+    .skill-text-col {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .skill-text-col {
+        margin-bottom: 10px;
+    }
 }
 
 .skill-content {
