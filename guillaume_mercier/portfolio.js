@@ -55,18 +55,15 @@ Promise.all(promises).then(hideSpinner);
 // Creates a list of tags from the retrieved projects
 function computeFilters() {
 
-
     let uriFilters = getQueryVariable().filter;
     if (!Array.isArray(uriFilters)) uriFilters = [uriFilters];
     let presetFilters = uriFilters.map(decodeURI);
-    console.log(presetFilters);
 
     projects.forEach(function (project) {
         project.tags.forEach(function (tag) {
             // We check if the tag is already in the list
             if (getFilter(tag) === undefined) {
                 let isActive = presetFilters.indexOf(tag) >= 0 ? true : false;
-                console.log("Is active : ", isActive);
                 filters.push({ name: tag, active: isActive });
             }
         });
