@@ -55,8 +55,8 @@
         <div class="section">
             <div class="container">
                 <div class="row contact-title no-bottom">
-                    <h3 class="colored-title">Contactons-nous</h3>
-                    <p>Un besoin ? Un projet ? Discutons-en !</p>
+                    <h3 class="colored-title" data-translate="CONTACT_TITLE"></h3>
+                    <p data-translate="CONTACT_TEXT"></p>
                 </div>
             </div>
         </div>
@@ -67,14 +67,14 @@
                     <div class="row no-bottom">
                         <div class="input-field col s12 m6 offset-m3 no-bottom">
                             <input name="name" id="name" type="text" class="validate" required="required">
-                            <label for="name">Nom / Prénom</label>
+                            <label for="name" data-translate="CONTACT_NAME"></label>
                             <span class="helper-text" data-error="John Doe ? C'est bien toi ?"></span>
                         </div>
                     </div>
                     <div class="row no-bottom">
                         <div class="input-field col s12 m6 offset-m3 no-bottom">
                             <input name="email" id="email" type="email" class="validate" required="required">
-                            <label for="email">Email</label>
+                            <label for="email" data-translate="CONTACT_EMAIL"></label>
                             <span class="helper-text" data-error="Pas de mail, pas de chocolat."></span>
                         </div>
                     </div>
@@ -82,13 +82,13 @@
                         <div class="input-field col s12 m6 offset-m3 no-bottom">
                             <textarea name="message" id="message" class="materialize-textarea validate"
                                 required="required"></textarea>
-                            <label for="message">Message</label>
+                            <label for="message" data-translate="CONTACT_MESSAGE"></label>
                             <span class="helper-text" data-error="Ne soyez pas timide ... :)"></span>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12 m6 offset-m3 mail-input">
-                            <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Envoyer
+                            <button class="btn waves-effect waves-light btn-large" type="submit" name="action"><span data-translate="CONTACT_SEND"></span>
                                 <i class="material-icons right">send</i>
                             </button>
                         </div>
@@ -119,6 +119,7 @@
     <script type="text/javascript" src="libs/jquery.3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
     <script type="text/javascript" src="libs/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="libs/translator.min.js"></script>
     <script type="text/javascript" src="helpers.js"></script>
     <script type="text/javascript" src="contact.js"></script>
 </body>

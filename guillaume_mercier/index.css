@@ -397,10 +397,10 @@ hr.rule {
 .spinner {
     height: 100%;
     position: absolute;
-    top: 100px;
+    top: 0px;
     width: 100%;
     background-color: white;
-    z-index: 20;
+    z-index: 1000;
 }
 
 .sk-cube-grid {

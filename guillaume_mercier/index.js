@@ -9,13 +9,9 @@ let promises = [];
 
 promises.push(new Promise(function (resolve, reject) {
     $.get("header.html", function (data) {
-        $("#header-container").replaceWith(data);
-
-        var options = {};
-        options.edge = "right";
-        $('.sidenav').sidenav(options);
-
-        resolve();
+        console.log("Got Header");
+        // Helper fonction
+        manageHeader(data).then(resolve);
     });
 }));
 
@@ -49,7 +45,7 @@ promises.push(new Promise(function (resolve, reject) {
     });
 }));
 
-Promise.all(promises).then(hideSpinner);
+Promise.all(promises).then(initAndDisplayContent);
 
 function manageProjects() {
     let projectContainer = $("#projects-container");

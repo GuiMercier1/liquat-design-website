@@ -1,15 +1,16 @@
+/******************************************************
+ * Hi there ! Thanks for inspecting my code
+ * If you find something interesting *slash* disgusting
+ * Please keep me informed at gui.mercier1@gmail.com :)
+ * Thanks !
+ ******************************************************/
 "use strict";
 
 let promises = [];
 
 promises.push(new Promise(function (resolve, reject) {
     $.get("header.html", function (data) {
-        $("#header-container").replaceWith(data);
-
-        var options = {};
-        options.edge = "right";
-        $('.sidenav').sidenav(options);
-
+        manageHeader(data);
         resolve();
     });
 }))
@@ -22,4 +23,5 @@ promises.push(new Promise(function (resolve, reject) {
     });
 }));
 
-Promise.all(promises).then(hideSpinner);
+//TODO TRANSLATE THE TITLES
+Promise.all(promises).then(initAndDisplayContent);
