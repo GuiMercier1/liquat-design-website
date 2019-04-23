@@ -27,7 +27,7 @@ function createProjectCard(project, displayOnSmallScreen) {
     if (project.tags != undefined) {
         tagsHTML = '<ul class="tags">';
         project.tags.forEach(function (tag) {
-            tagsHTML += '<li><a href="#" class="tag">#' + tag + '</a></li>';
+            tagsHTML += '<li><a href="#" class="tag">#<span data-translate="PROJECTS_TAGS_' + tag + '"><span></a></li>';
         });
 
         tagsHTML += "</ul>"
@@ -55,10 +55,29 @@ function createProjectCard(project, displayOnSmallScreen) {
 
 function createProjectPopup(project) {
 
+    // First we add the translations into the dictionary
+    // And further we add the data attributes to translate it automatically
+    let titleTranslationKey = "PROJECT_" + project.id + "_TITLE";
+    dictionary["fr"][titleTranslationKey] = project.fr_title;
+    dictionary["en"][titleTranslationKey] = project.en_title;
+
+    let shortDescriptionKey = "PROJECT_" + project.id + "_SHORT_DESCRIPTION";
+    dictionary["fr"][shortDescriptionKey] = project.fr_shortDescription;
+    dictionary["en"][shortDescriptionKey] = project.en_shortDescription;
+
+    let longDescriptionKey = "PROJECT_" + project.id + "_LONG_DESCRIPTION";
+    dictionary["fr"][longDescriptionKey] = project.fr_longDescription;
+    dictionary["en"][longDescriptionKey] = project.en_longDescription;
+
+
+    let taskBaseKey = "PROJECT_" + project.id + "_TASK_";
     let tasksHTML = "<ul class='tasks-list'>";
 
-    project.tasks.forEach(function (task) {
-        tasksHTML += "<li>> " + task + "</li>";
+    project.tasks.forEach(function (task, index) {
+        let taskKey = taskBaseKey + index;
+        dictionary["fr"][taskKey] = task.fr;
+        dictionary["en"][taskKey] = task.en;
+        tasksHTML += "<li data-translate='" + taskKey + "'> " + task + "</li>";
     });
 
     tasksHTML += "</ul>";
@@ -66,34 +85,28 @@ function createProjectPopup(project) {
     let htmlContent = '<div id="' + project.id + '" class="needpopup">'
         + '<div class="row popup-header">'
         + '<div class="col s12">'
-        + '<h5>'
-        + project.title
-        + '</h5>'
+        + '<h5 data-translate="' + titleTranslationKey + '"></h5>'
         + '</div>'
         + '</div>'
         // + '<div class="popup-img-container hide-on-small-only">'
         // + '<img src="img/' + project.imageSrc + '" />'
         // + '</div>'
         + '<div class="row">'
-        + '<div class="col s12">'
-        + project.shortDescription
-        + '</div>'
+        + '<div class="col s12" data-translate="' + shortDescriptionKey + '"></div>'
         + '</div>'
         + '<div class="row">'
-        + '<div class="col s12">'
-        + project.longDescription
-        + '</div>'
+        + '<div class="col s12" data-translate="' + longDescriptionKey + '"></div>'
         + '</div>'
         + '<div class="row">'
         + '<div class="col s6">'
-        + "<span class='popup-title'>Client : </span>" + project.customer
+        + '<span class="popup-title"><span data-translate="PORTFOLIO_CUSTOMER"></span> : </span>' + project.customer
         + '</div>'
         + '<div class="col s6">'
-        + "<span class='popup-title'>Entreprise : </span>" + project.company
+        + '<span class="popup-title"><span data-translate="PORTFOLIO_COMPANY"></span> : </span>' + project.company
         + '</div>'
         + '</div>'
         + '<div class="row">'
-        + '<div class="col s12 popup-title">Challenges : </div>'
+        + '<div class="col s12 popup-title"><span data-translate="PORTFOLIO_CHALLENGES"></span> : </div>'
         + '<div class="col s12">' + tasksHTML + '</div>'
         + '</div>'
         + '</div>';
@@ -111,8 +124,6 @@ function manageHeader(data) {
 
         $("#header-container").replaceWith(data);
 
-        console.log("Insterted Header");
-
         var options = {};
         options.edge = "right";
         $('.sidenav').sidenav(options);
@@ -126,7 +137,7 @@ function manageHeader(data) {
             translator.setLanguageRun(newLanguage);
 
             // We also update the URL in case of refresh
-            window.history.pushState('', '', "?lang=" + newLanguage);
+            updateLangInURL(newLanguage);
         });
 
         setTimeout(resolve);
@@ -161,6 +172,22 @@ let dictionary = {
         "INDEX_TEAM_TEXT": "Work should not be laborious ! Let boost together your teams' motivation to create an environment within we will all be able to reveal our full potential.",
         "INDEX_ALL_PROJECTS": "All projects",
         "INDEX_CUSTOMERS": "Customers",
+        "PORTFOLIO_CUSTOMER": "Customer",
+        "PORTFOLIO_COMPANY": "Company",
+        "PORTFOLIO_CHALLENGES": "Challenges",
+        "PROJECTS_TAGS_UX_DESIGN": "UX Design",
+        "PROJECTS_TAGS_PROJECT_MANAGEMENT": "Project Management",
+        "PROJECTS_TAGS_WEB_DEV": "Web Dev",
+        "PROJECTS_TAGS_HAPPINESS": "Happiness Management",
+        "PROJECTS_TAGS_BUSINESS": "Business Management",
+        "PROJECTS_TAGS_MARKETING": "Web Marketing",
+        "PROJECTS_TAGS_SPLUNK": "Splunk",
+        "PROJECTS_TAGS_TRAINING": "Training",
+        "PROJECTS_TAGS_BIG_DATA": "Big Data",
+        "PROJECTS_TAGS_NODEJS": "NodeJS",
+        "PROJECTS_TAGS_ANGULARJS": "AngularJS",
+        "PROJECTS_TAGS_ELASTIC": "ElasticSearch",
+        "PROJECTS_TAGS_PERSUASIVE": "Persuasive Apps",
         "RESUME_TITLE": "Experiences",
         "RESUME_DOWNLOAD": "My resume (PDF)",
         "RESUME_CONTACT_TITLE": "You are here",
@@ -168,7 +195,7 @@ let dictionary = {
         "RESUME_CONTACT_TEXT": "<a href='./contact' target='_blank' class='custom-link' data-link='./contact.html'>Contact me</a> for any of your projects !",
         "RESUME_INOVANS_TITLE": "Inovans",
         "RESUME_INOVANS_DATE": "Sept. 2017 - Jan. 2019",
-        "RESUME_INOVANS_TEXT": "<ul><li>Design and development of Splunk Dashboards for Airbus</li><li>Writing and presentation of a Splunk training</li><li>Hapiness Management</li><li>UX Design and Project Management for many internal projects</li></ul>",
+        "RESUME_INOVANS_TEXT": "<ul><li>Design and development of Splunk Dashboards for Airbus</li><li>Writing and presentation of a Splunk training</li><li>Happiness Management</li><li>UX Design and Project Management for many internal projects</li></ul>",
         "RESUME_ATOFFICE_TITLE": "\"Au Bureau\"",
         "RESUME_ATOFFICE_DATE": "Aug. 2018 - Sept. 2018",
         "RESUME_ATOFFICE_TEXT": "Head waiter in a bar-restaurant",
@@ -206,12 +233,12 @@ let dictionary = {
         "RESUME_MATHSMASTER_TITLE": "Maths Master",
         "RESUME_MATHSMASTER_DATE": "2005 - 2010",
         "RESUME_MATHSMASTER_TEXT": "ENAC / Paul Sabatier, Toulouse",
-        "CONTACT_TITLE":"Get in touch !",
-        "CONTACT_TEXT":"Any need ? Any project ? Let's talk about it !",
-        "CONTACT_NAME":"First name / Last name",
-        "CONTACT_EMAIL":"Email",
-        "CONTACT_MESSAGE":"Message",
-        "CONTACT_SEND":"Send",
+        "CONTACT_TITLE": "Get in touch !",
+        "CONTACT_TEXT": "Any need ? Any project ? Let's talk about it !",
+        "CONTACT_NAME": "First name / Last name",
+        "CONTACT_EMAIL": "Email",
+        "CONTACT_MESSAGE": "Message",
+        "CONTACT_SEND": "Send",
         "FOOTER_CONTACT": "Contact me !",
         "FOOTER_LINKEDIN": "Does net work ?",
         "FOOTER_TWITTER": "Free time killer",
@@ -240,6 +267,22 @@ let dictionary = {
         "INDEX_TEAM_TEXT": "Le travail n'a pas à être pénible ! Renforçons ensemble la motivation de vos équipes pour créer un environnement dans lequel nous pourrons tous révéler notre plein potentiel.",
         "INDEX_ALL_PROJECTS": "Tous les projets",
         "INDEX_CUSTOMERS": "Clients",
+        "PORTFOLIO_CUSTOMER": "Client",
+        "PORTFOLIO_COMPANY": "Entreprise",
+        "PORTFOLIO_CHALLENGES": "Défis",
+        "PROJECTS_TAGS_UX_DESIGN": "UX Design",
+        "PROJECTS_TAGS_PROJECT_MANAGEMENT": "Gestion de projet",
+        "PROJECTS_TAGS_WEB_DEV": "Dev Web",
+        "PROJECTS_TAGS_HAPPINESS": "Gestion du Bien-être",
+        "PROJECTS_TAGS_BUSINESS": "Business Manageemnt",
+        "PROJECTS_TAGS_MARKETING": "Web Marketing",
+        "PROJECTS_TAGS_SPLUNK": "Splunk",
+        "PROJECTS_TAGS_TRAINING": "Formation",
+        "PROJECTS_TAGS_BIG_DATA": "Big Data",
+        "PROJECTS_TAGS_NODEJS": "NodeJS",
+        "PROJECTS_TAGS_ANGULARJS": "AngularJS",
+        "PROJECTS_TAGS_ELASTIC": "Elastic Search",
+        "PROJECTS_TAGS_PERSUASIVE": "Apps Persuasives",
         "RESUME_TITLE": "Expériences",
         "RESUME_DOWNLOAD": "Mon CV (PDF)",
         "RESUME_CONTACT_TITLE": "Vous êtes ici",
@@ -285,13 +328,13 @@ let dictionary = {
         "RESUME_MATHSMASTER_TITLE": "Maîtrise de Maths.",
         "RESUME_MATHSMASTER_DATE": "2005 - 2010",
         "RESUME_MATHSMASTER_TEXT": "ENAC / Paul Sabatier, Toulouse",
-        "CONTACT_TITLE":"Contactons-nous",
-        "CONTACT_TEXT":"Un besoin ? Un projet ? Discutons-en !",
+        "CONTACT_TITLE": "Contactons-nous",
+        "CONTACT_TEXT": "Un besoin ? Un projet ? Discutons-en !",
         "FOOTER_CONTACT": "Contactez-moi !",
-        "CONTACT_NAME":"Nom / Prénom",
-        "CONTACT_EMAIL":"Email",
-        "CONTACT_MESSAGE":"Message",
-        "CONTACT_SEND":"Envoyer",
+        "CONTACT_NAME": "Nom / Prénom",
+        "CONTACT_EMAIL": "Email",
+        "CONTACT_MESSAGE": "Message",
+        "CONTACT_SEND": "Envoyer",
         "FOOTER_LINKEDIN": "Panne de réseau ?",
         "FOOTER_TWITTER": "Reliquat du temps libre",
         "FOOTER_OPINION": "Votre avis m'intéresse",
@@ -304,9 +347,11 @@ let dictionary = {
 }
 
 let translator;
-function triggerTranslator() {
+function initTranslator() {
     // First we set the default language - if not set in the URL
-    let lang = getQueryVariable().lang;
+    let baseQuery = getQueryVariable();
+
+    let lang = baseQuery.lang;
 
     let setInURL = false;
     if (lang == undefined) {
@@ -318,7 +363,7 @@ function triggerTranslator() {
         setInUrl = true;
     }
 
-    if (setInURL) window.history.pushState('', '', "?lang=" + lang);
+    if (setInURL) updateLangInURL(lang);
 
     translator = Translator({
         language: lang,
@@ -327,10 +372,51 @@ function triggerTranslator() {
         htmlfriendly: true
     });
 
-    console.log("Language set to : " + lang);
     translator.setLanguageRun(lang);
+}
 
-    console.log("Triggered translator");
+function triggerTranslator() {
+    translator.setLanguageRun(translator.lang);
+}
+
+/**
+ * Updates a new query string in URL but taking into account the lang query
+ */
+function updateURL(queryString) {
+    let lang = getQueryVariable().lang;
+
+    let newQueryString = "?lang=" + lang + (queryString === "" ? "" : "&" + queryString)
+
+    window.history.pushState('', '', newQueryString);
+}
+
+/**
+ * Updates the lang in URL but taking into account any existing query
+ */
+function updateLangInURL(lang) {
+    let baseQuery = getQueryVariable();
+
+    baseQuery.lang = lang;
+
+    let newQueryString = "?";
+    let queryKeys = Object.keys(baseQuery);
+
+    queryKeys.forEach(function (key, index) {
+        let queryValue = baseQuery[key];
+        if (Array.isArray(queryValue)) {
+            queryValue.forEach(function (value, valueIndex) {
+                newQueryString += key + "=" + value;
+                if (valueIndex < queryValue.length - 1) newQueryString += "&";
+            });
+        }
+        else {
+            newQueryString += key + "=" + queryValue;
+        }
+
+        if (index < queryKeys.length - 1) newQueryString += "&";
+    });
+
+    window.history.pushState('', '', newQueryString);
 }
 
 /***************
@@ -414,7 +500,6 @@ function bindLinks() {
         let lang = getQueryVariable().lang;
         let link = $(this).data("link");
 
-        // TODO BE CAREFUL IF THERE IS ALREADY QUERIES
         window.location.href = link + "?lang=" + lang;
     });
 }
@@ -428,7 +513,7 @@ function hideSpinner() {
 
 function initAndDisplayContent() {
     // Helper functions
-    triggerTranslator();
+    initTranslator();
     bindLinks();
     hideSpinner();
 }

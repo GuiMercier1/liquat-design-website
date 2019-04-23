@@ -52,8 +52,6 @@ Promise.all(promises).then(initAndDisplayContent);
 function computeFilters() {
 
     //TODO THERE IS A BUG WHEN YOU REFRESH THE PAGE, FILTERS ARE NOT SET ANYMORE
-    //TODO NEED TO TRANSLATE THE FILTERS AND TAGS AND SOME PROJECT STUFF AS WELL
-
     let uriFilters = getQueryVariable().filter;
     if (!Array.isArray(uriFilters)) uriFilters = [uriFilters];
     let presetFilters = uriFilters.map(decodeURI);
@@ -63,7 +61,7 @@ function computeFilters() {
             // We check if the tag is already in the list
             if (getFilter(tag) === undefined) {
                 let isActive = presetFilters.indexOf(tag) >= 0 ? true : false;
-                filters.push({ name: tag, active: isActive });
+                filters.push({ id: tag, active: isActive });
             }
         });
     });
@@ -73,7 +71,8 @@ function computeFilters() {
     let activeClass;
     filters.forEach(function (filter) {
         activeClass = filter.active ? " filter-selected" : "";
-        filtersHTML += '<li><a href="#" class="filter' + activeClass + '" data-value="' + filter.name + '">#' + filter.name + '</a></li>';
+        console.log('PROJECTS_TAGS_' + filter.id);
+        filtersHTML += '<li><a href="#" class="filter' + activeClass + '" data-value="' + filter.id + '">#<span data-translate="PROJECTS_TAGS_' + filter.id + '"></span></a></li>';
     });
 
     filtersHTML += "</ul>";
@@ -81,13 +80,18 @@ function computeFilters() {
     $("#filter-container").append(filtersHTML);
 
     // On click we toggle the filter
-    $(".filter").click(function () {
+    $(".filter").click(function (e) {
+        e.preventDefault();
+
         let tag = $(this).data("value");
 
         toggleFilterModel(tag);
         toggleFilterView(tag);
 
         displayProjects();
+        triggerTranslator();
+
+        updateFiltersInURL();
     });
 }
 
@@ -130,7 +134,7 @@ function getFilter(tag) {
     let focusedFilter;
 
     filters.forEach(function (filter) {
-        if (filter.name === tag) focusedFilter = filter;
+        if (filter.id === tag) focusedFilter = filter;
     });
 
     return focusedFilter;
@@ -156,4 +160,31 @@ function allFiltersAreSelected() {
     });
 
     return areAllSelected;
+}
+
+function getActiveFilters() {
+
+    let activeFilters = [];
+    
+    filters.forEach(function (filter) {
+        if (filter.active === true) activeFilters.push(filter);
+    });
+
+    return activeFilters;
+}
+
+function updateFiltersInURL() {
+
+    let newFilterQuery = "";
+
+    let activeFilters = getActiveFilters();
+
+    activeFilters.forEach(function (filter, index) {
+        newFilterQuery += "filter=" + filter.id;
+        if (index < activeFilters.length - 1) newFilterQuery += "&";
+    });
+
+    console.log(newFilterQuery);
+
+    updateURL(newFilterQuery);
 }

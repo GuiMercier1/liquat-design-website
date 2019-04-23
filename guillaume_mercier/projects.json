@@ -11,13 +11,41 @@
             "customer": "Inovans",
             "company": "Inovans",
             "id": "inovapps",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Gestion de projet"
+                "UX_DESIGN",
+                "PROJECT_MANAGEMENT"
             ],
-            "tasks":["Analyse des besoins", "Analyse de l'existant", "Ateliers de brainstorming", "Maquettage", "Gestion de projet", "Méthodes agiles avec SCRUM"],
-            "tools":["Axure", "Taiga"]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Gestion de projet",
+                    "en": "Project management"
+                },
+                {
+                    "fr": "Méthodes agiles avec SCRUM",
+                    "en": "SCRUM Agile processes"
+                }
+            ],
+            "tools": [
+                "Axure",
+                "Taiga"
+            ]
         },
         {
             "fr_title": "Site d'Inovans",
@@ -30,12 +58,31 @@
             "customer": "Inovans",
             "company": "Inovans",
             "id": "digital-site",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "Web Dev"
+                "WEB_DEV"
             ],
-            "tasks":["Ateliers Focus Group", "Maquettage", "Méthodes agiles avec SCRUM", "Développement avec MaterializeCSS"],
-            "tools":["Axure"]
+            "tasks": [
+                {
+                    "fr": "Ateliers Focus Group",
+                    "en": "Focus Group Workshops"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Méthodes agiles avec SCRUM",
+                    "en": "SCRUM Agile processes"
+                },
+                {
+                    "fr": "Développement avec MaterializeCSS",
+                    "en": "Development with MaterializeCSS"
+                }
+            ],
+            "tools": [
+                "Axure"
+            ]
         },
         {
             "fr_title": "Bien-être au travail",
@@ -48,12 +95,35 @@
             "customer": "Inovans",
             "company": "Inovans",
             "id": "draw-your-inovans",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "Happiness Management"
+                "HAPPINESS"
             ],
-            "tasks":["Ateliers Speed Boat", "Ateliers Focus Group", "Création de \"Draw Your Inovans\"", "Communication interne", "Team Building"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Ateliers Speed Boat",
+                    "en": "Speed Boat Workshops"
+                },
+                {
+                    "fr": "Ateliers Focus Group",
+                    "en": "Focus Group Workshops"
+                },
+                {
+                    "fr": "Création de \"Draw Your Inovans\"",
+                    "en": "Creation of \"Draw Your Inovans\""
+                },
+                {
+                    "fr": "Communication interne",
+                    "en": "Internal communication"
+                },
+                {
+                    "fr": "Team Building",
+                    "en": "Team Building"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Elektroscop",
@@ -66,14 +136,29 @@
             "customer": "Elektroscop",
             "company": "Freelance",
             "id": "elektroscop",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Business Management",
-                "Web Marketing"
+                "UX_DESIGN",
+                "BUSINESS",
+                "MARKETING"
             ],
-            "tasks":["Analyse de l'existant", "Maquettage"],
-            "tools":["Axure"]
+            "tasks": [
+                {
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Etude de marché",
+                    "en": "Market audit"
+                }
+            ],
+            "tools": [
+                "Axure"
+            ]
         },
         {
             "fr_title": "Formation Splunk",
@@ -86,15 +171,43 @@
             "customer": "GFI",
             "company": "Inovans",
             "id": "splunk-formation",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev",
-                "Splunk",
-                "Formation"
+                "UX_DESIGN",
+                "WEB_DEV",
+                "SPLUNK",
+                "TRAINING",
+                "BIG_DATA"
             ],
-            "tasks":["Ecriture de la formation", "Formation de 12 personnes", "Initiation à Splunk", "Initiation à la DataViz", "Initiation aux dashboards Splunk en JavaScript", "Initiation à l'UX Design"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Ecriture de la formation",
+                    "en": "Training writing"
+                },
+                {
+                    "fr": "Formation de 12 personnes",
+                    "en": "Teaching for 12 people"
+                },
+                {
+                    "fr": "Initiation à Splunk",
+                    "en": "Splunk initiation"
+                },
+                {
+                    "fr": "Initiation à la DataViz",
+                    "en": "Data Visualization initiation"
+                },
+                {
+                    "fr": "Initiation aux dashboards Splunk en JavaScript",
+                    "en": "Custom JS Splunk Dashboards inititiation"
+                },
+                {
+                    "fr": "Initiation à l'UX Design",
+                    "en": "UX Design initiation"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Monitoring pour Airbus",
@@ -107,14 +220,49 @@
             "customer": "Airbus",
             "company": "Inovans",
             "id": "splunk-airbus",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev",
-                "Splunk"
+                "UX_DESIGN",
+                "WEB_DEV",
+                "SPLUNK"
             ],
-            "tasks":["Auto-formation Splunk", "Auto-formation au Framework JS Splunk", "Méthodes agiles avec SCRUM", "Analyse des besoins utilisateurs ET clients", "Maquettage Axure", "Big Data pour extraire de l'information", "Développement de dashboards simples", "Développement de dashboards interactifs complexes"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Auto-formation Splunk",
+                    "en": "Splunk self training"
+                },
+                {
+                    "fr": "Auto-formation au Framework JS Splunk",
+                    "en": "Splunk JS Framework self training"
+                },
+                {
+                    "fr": "Méthodes agiles avec SCRUM",
+                    "en": "SCRUM Agile processes"
+                },
+                {
+                    "fr": "Analyse des besoins utilisateurs ET clients",
+                    "en": "Customers AND users' needs analysis"
+                },
+                {
+                    "fr": "Maquettage Axure",
+                    "en": "Mockups with Axure"
+                },
+                {
+                    "fr": "Analyse Big Data pour extraire de l'information pertinente",
+                    "en": "Big Data analysis to extract smart data"
+                },
+                {
+                    "fr": "Développement de dashboards Splunk simples",
+                    "en": "Development of simple Splunk dashboards"
+                },
+                {
+                    "fr": "Développement de dashboards Splunk interactifs et complexes",
+                    "en": "Development of complexes and interactives Splunk dashboards"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Lead Analytics",
@@ -127,15 +275,46 @@
             "customer": "Sycomore",
             "company": "Freelance",
             "id": "lead-analytics",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev",
-                "NodeJS",
-                "AngularJS"
+                "UX_DESIGN",
+                "WEB_DEV",
+                "NODEJS",
+                "ANGULARJS"
             ],
-            "tasks":["Analyse de l'existant", "Tests utilisateurs", "Analyse des besoins", "Ateliers de brainstorming", "Maquettage Balsamiq", "Ateliers de prototypage participatif", "Développement de widgets en AngularJS et NodeJS"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                },
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Ateliers de conception participative",
+                    "en": "Participative design workshops"
+                },
+                {
+                    "fr": "Développement de widgets en AngularJS et NodeJS",
+                    "en": "Development of widgets with AngularJS and NodeJS"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Lead Sample",
@@ -148,15 +327,42 @@
             "customer": "Sycomore",
             "company": "Freelance",
             "id": "lead-sample",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev",
-                "NodeJS",
-                "AngularJS"
+                "UX_DESIGN",
+                "WEB_DEV",
+                "NODEJS",
+                "ANGULARJS"
             ],
-            "tasks":["Veille technique", "Analyse des besoins", "Ateliers de brainstorming", "Maquettage Balsamiq", "Développement de widgets en AngularJS et NodeJS", "Tests utilisateurs"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Veille technique",
+                    "en": "Technical watch"
+                },
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Développement de widgets en AngularJS et NodeJS",
+                    "en": "Development of widgets with AngularJS and NodeJS"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Lead Catalog",
@@ -169,16 +375,43 @@
             "customer": "Sycomore",
             "company": "Freelance",
             "id": "lead-catalog",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev",
-                "Elastic Search",
-                "AngularJS",
-                "Gestion de projet"
+                "UX_DESIGN",
+                "WEB_DEV",
+                "ELASTIC",
+                "ANGULARJS",
+                "PROJECT_MANAGEMENT"
             ],
-            "tasks":["Analyse des besoins", "Veille (très) technique", "Ateliers de brainstorming", "Prototypage participatif", "Tests Utilisateurs", "Développement en AngularJS et NodeJS"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Veille (très) technique",
+                    "en": "(Very) technical watch"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Ateliers de conception participatif",
+                    "en": "Participative design workshops"
+                },
+                {
+                    "fr": "Tests Utilisateurs",
+                    "en": "User testing"
+                },
+                {
+                    "fr": "Développement en AngularJS et NodeJS",
+                    "en": "Development with AngularJS and NodeJS"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Communication spatiale",
@@ -191,15 +424,38 @@
             "customer": "CNRS",
             "company": "Capgemini",
             "id": "spatiale",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "AngularJS",
-                "Web Dev",
-                "NodeJS"
+                "UX_DESIGN",
+                "ANGULARJS",
+                "WEB_DEV",
+                "NODEJS"
             ],
-            "tasks":["Analyse des besoins", "Compréhension des fortes contraintes de communication", "Maquettage Balsamiq", "Développement en AngularJS", "Utilisation d'un template Bootstrap"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Compréhension des fortes contraintes de communication",
+                    "en": "Understanding of the strong communication constraints"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Développement en AngularJS",
+                    "en": "Development with AngularJS"
+                },
+                {
+                    "fr": "Utilisation d'un template Bootstrap",
+                    "en": "Use of a Bootstrap template"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Appli d'aide à l'achat",
@@ -212,12 +468,32 @@
             "customer": "Confidentiel",
             "company": "Capgemini",
             "id": "marketing",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design"
+                "UX_DESIGN"
             ],
-            "tasks":["Analyse des besoins", "Ateliers de brainstorming", "Maquettage avec JustInMind", "Tests utilisateurs"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage avec JustInMind",
+                    "en": "Mockups with JustInMind"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "JustInMind",
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Doctrines de l'Armée",
@@ -230,12 +506,27 @@
             "customer": "Armée de Terre",
             "company": "Capgemini",
             "id": "doctrines",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design"
+                "UX_DESIGN"
             ],
-            "tasks":["Analyse des besoins", "Prototypage Balsamiq", "Tests utilisateurs"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "I-Care",
@@ -248,13 +539,44 @@
             "customer": "Efficiencia",
             "company": "Efficiencia",
             "id": "i-care",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Persuasive Apps"
+                "UX_DESIGN",
+                "PERSUASIVE"
             ],
-            "tasks":["Etude sur les applications persuasives", "Etude sur le Serious Gaming", "Etude sur la thermique des bâtiments", "Création de personas", "Ateliers de brainstorming", "Maquettage Balsamiq", "Développement d'un POC en Java"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Etude sur les applications persuasives",
+                    "en": "Study of persuasive applications"
+                },
+                {
+                    "fr": "Etude sur le Serious Gaming",
+                    "en": "Study of Serious Gaming"
+                },
+                {
+                    "fr": "Etude sur la thermique des bâtiments",
+                    "en": "Study of buildings' thermics"
+                },
+                {
+                    "fr": "Création de personas",
+                    "en": "Personas creation"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Développement d'un POC en Java",
+                    "en": "Development of a POC in Java"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "PIXEE",
@@ -267,12 +589,31 @@
             "customer": "Efficiencia",
             "company": "Efficiencia",
             "id": "pixee",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design"
+                "UX_DESIGN"
             ],
-            "tasks":["Analyse des besoins", "Ateliers de brainstorming", "Ateliers de conception participative", "Maquettage Balsamiq"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Ateliers de conception participative",
+                    "en": "Participative design workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "NAIAD",
@@ -285,13 +626,37 @@
             "customer": "Efficiencia",
             "company": "Efficiencia",
             "id": "naiad",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev"
+                "UX_DESIGN",
+                "WEB_DEV",
+                "BIG_DATA"
             ],
-            "tasks":["Analyse des besoins", "Création de personas", "Analyse des données reçues", "Big Data pour en extraire l'intelligence", "Maquettage Balsamiq"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Création de personas",
+                    "en": "Personas creation"
+                },
+                {
+                    "fr": "Analyse des données reçues",
+                    "en": "Analysis of gathered data"
+                },
+                {
+                    "fr": "Analyse Big Data pour extraire de l'information pertinente",
+                    "en": "Big Data analysis to extract smart data"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "IntuiFace",
@@ -304,13 +669,32 @@
             "customer": "IntuiFace",
             "company": "IntuiFace",
             "id": "intuiface",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Web Dev"
+                "UX_DESIGN",
+                "WEB_DEV"
             ],
-            "tasks":["Développement en JS et JQuery", "Intégration du moteur physique Box2DJS", "Intégration graphique des résultats du moteur", "Compréhension et manipulation des transformations matricielles CSS3"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Développement en JS avec JQuery",
+                    "en": "Development in JS with JQuery"
+                },
+                {
+                    "fr": "Intégration du moteur physique Box2DJS",
+                    "en": "Integration of the Box2DJS physic engine"
+                },
+                {
+                    "fr": "Intégration graphique des résultats du moteur",
+                    "en": "Graphic integration of the engine's results"
+                },
+                {
+                    "fr": "Compréhension et manipulation des transformations matricielles CSS3",
+                    "en": "Understanding and manipulation of the CSS3 matrix transformations"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         },
         {
             "fr_title": "Un besoin ?",
@@ -323,15 +707,22 @@
             "customer": "Vous",
             "company": "Nous ?",
             "id": "you",
-            "opacity":0.3,
+            "opacity": 0.3,
             "tags": [
-                "UX Design",
-                "Gestion de projet",
-                "Happiness Management",
-                "Web Marketing"
+                "UX_DESIGN",
+                "PROJECT_MANAGEMENT",
+                "HAPPINESS",
+                "MARKETING"
             ],
-            "tasks":["Définissons-les ensemble !"],
-            "tools":["En cours d'écriture..."]
+            "tasks": [
+                {
+                    "fr": "Définissons-les ensemble !",
+                    "en": "Let's build some together !"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
         }
     ]
 }
