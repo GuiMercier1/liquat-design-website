@@ -26,6 +26,8 @@ nav {
 .sidenav {
     background-color: #474486;
     width: 225px;
+    height:100%;
+    padding-bottom:0px;
 }
 
 .sidenav li>a, .sidenav li>a>i {
@@ -52,7 +54,7 @@ nav {
     padding: 5px 32px;
     background-color: #3d3b67;
     position: absolute;
-    bottom: 60px;
+    bottom: 0px;
     width: 100%;
 }
 
