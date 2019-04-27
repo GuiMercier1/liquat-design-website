@@ -274,7 +274,7 @@ let dictionary = {
         "PROJECTS_TAGS_PROJECT_MANAGEMENT": "Gestion de projet",
         "PROJECTS_TAGS_WEB_DEV": "Dev Web",
         "PROJECTS_TAGS_HAPPINESS": "Gestion du Bien-être",
-        "PROJECTS_TAGS_BUSINESS": "Business Manageemnt",
+        "PROJECTS_TAGS_BUSINESS": "Business Management",
         "PROJECTS_TAGS_MARKETING": "Web Marketing",
         "PROJECTS_TAGS_SPLUNK": "Splunk",
         "PROJECTS_TAGS_TRAINING": "Formation",
