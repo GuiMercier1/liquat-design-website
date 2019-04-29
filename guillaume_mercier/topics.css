@@ -1,0 +1,15 @@
+.topic-title {
+    margin-top: 0px;
+}
+
+.topic-image-container {
+    max-width: 20%!important;
+    display: flex;
+    align-items: center;
+    /* border-left: 1px solid rgba(160,160,160,0.2);
+    border-right: 1px solid rgba(160,160,160,0.2); */
+}
+
+.topic-link-container {
+    border-top: none!important;
+}
