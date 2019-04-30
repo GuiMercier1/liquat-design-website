@@ -1,0 +1,779 @@
+{
+    "projects": [
+        {
+            "fr_title": "Mon portfolio",
+            "en_title": "My portfolio",
+            "imageSrc": "projects/my_website.png",
+            "fr_shortDescription": "Création d'un site web pour présenter mes compétences, mon parcours et mes projets.",
+            "en_shortDescription": "Creation of a website to put forwards my skills, my journey and my projects.",
+            "fr_longDescription": "J'ai souhaité faire un site \"vendeur\", mais qui respecte mes valeurs et ma personnalité, à savoir l'humour, l'adaptabilité, la sociabilité, et d'autres que je vous laisse découvrir ici. J'ai relevé ce challenge de mêler le ludique et le sérieux et vous êtes seuls juges de sa réussite !<br /><br />J'ai appliqué ma stratégie UX (analyse des besoins, idéation, maquettes, feedbacks utilisateurs, ...) pour vous proposer une expérience utile - à vous comme à moi - et agréable.<br /><br />N'hésitez pas à me faire le moindre retour !",
+            "en_longDescription": "I wanted to make a \"self-marketing\" oriented website, but which respects my values and my personnality which are humor, adaptability, sociability and many more that I let you find out here. I took this challenge to mix fun and seriousness, and you will be the only judges of its success !<br /><br />I have applied my UX strategy (needs analysis, ideation, mockups, user feedbacks, ...) to propose you a usefull - for you as much as for me - and pleasant experience.<br /><br />Please contact me for any feedback !",
+            "customer": "Vous / You",
+            "company": "Moi-même / Myself",
+            "id": "my_website",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "MARKETING"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Design graphique",
+                    "en": "Graphic design"
+                },
+                {
+                    "fr": "Développement avec MaterializeCSS",
+                    "en": "Development with MaterializeCSS"
+                },
+                {
+                    "fr": "Développement d'un module bilingue anglais/français",
+                    "en": "Development of a english/french bilingual module"
+                },
+                {
+                    "fr": "Gestion des versions avec Git",
+                    "en": "Git versionning"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Inov'Apps",
+            "en_title": "Inov'Apps",
+            "imageSrc": "projects/inovans.png",
+            "fr_shortDescription": "Conception d'un logiciel de management ludique pour répondre au potentiel isolement des consultants chez le client.",
+            "en_shortDescription": "Design of a playful management software to prevent some consultants' potential isolation.",
+            "fr_longDescription": "Suite au développement du bien-être au travail à Inovans, nous avons souhaité faire évoluer nous outils internes pour que tous les consultants puissent garder contact entre eux et avec leur manager afin de renforcer la cohésion et d'éviter l'isolement. La première version a été plébiscitée par les consultants comme reflet de notre identité.",
+            "en_longDescription": "Following the \"wellness at work\" development at Inovans, we wanted to improve our internal tools for all the consultats to keep contact amongst us and with their manager to enhance cohesion and avoid isolation. The first version has been plebiscited by our consultants as a reflect of our identity.",
+            "customer": "Inovans",
+            "company": "Inovans",
+            "id": "inovapps",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "PROJECT_MANAGEMENT"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Gestion de projet",
+                    "en": "Project management"
+                },
+                {
+                    "fr": "Méthodes agiles avec SCRUM",
+                    "en": "SCRUM Agile processes"
+                }
+            ],
+            "tools": [
+                "Axure",
+                "Taiga"
+            ]
+        },
+        {
+            "fr_title": "Site d'Inovans",
+            "en_title": "Inovans Website",
+            "imageSrc": "projects/digital_factory.png",
+            "fr_shortDescription": "Conception et développement du site de la Digital Factory d'Inovans.",
+            "en_shortDescription": "Design and development of the Inovans' Digital Factory Website.",
+            "fr_longDescription": "Le but était de renouveler notre site vitrine pour expliciter le développement de l'offre digitale et refléter l'identité d'Inovans pour les potentiels clients et candidats. Développement d'easter eggs (!).",
+            "en_longDescription": "The main goal was to reinvent our website to put forward our new digital offer and to reflect Inovans' identity for potential customers and candidates. Easter eggs included (!).",
+            "customer": "Inovans",
+            "company": "Inovans",
+            "id": "digital-site",
+            "opacity": 0.3,
+            "tags": [
+                "WEB_DEV"
+            ],
+            "tasks": [
+                {
+                    "fr": "Ateliers Focus Group",
+                    "en": "Focus Group Workshops"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Méthodes agiles avec SCRUM",
+                    "en": "SCRUM Agile processes"
+                },
+                {
+                    "fr": "Développement avec MaterializeCSS",
+                    "en": "Development with MaterializeCSS"
+                }
+            ],
+            "tools": [
+                "Axure"
+            ]
+        },
+        {
+            "fr_title": "Bien-être au travail",
+            "en_title": "Well being at work",
+            "imageSrc": "projects/happiness.png",
+            "fr_shortDescription": "Transformation humaine et structurelle de l'agence pour améliorer le bien-être des consultants.",
+            "en_shortDescription": "Inovans agency's human and structural conversion to improve every consultant's wellness at work.",
+            "fr_longDescription": "En compagnie du directeur et des managers d'Inovans, nous avons constaté que certains consultants se sentaient isolés et / ou déçus à cause de certains dysfonctionnements. J'ai donc créé le concept de \" Draw Your Inovans\" avec le soutien du management pour appliquer l'esprit de l'UX Design à mes collègues en leur proposant de co-créer une entreprise qui leur ressemble.",
+            "en_longDescription": "With the management team, we noted that some consultants may feel isolation and/or disappointment because of some dysfunctions. So I have created the concept of \"Draw Your Inovans\" with the management team and I have brought the mindset of UX Design to my workmates to propose them to co-create a company which fits them better.",
+            "customer": "Inovans",
+            "company": "Inovans",
+            "id": "draw-your-inovans",
+            "opacity": 0.3,
+            "tags": [
+                "HAPPINESS"
+            ],
+            "tasks": [
+                {
+                    "fr": "Ateliers Speed Boat",
+                    "en": "Speed Boat Workshops"
+                },
+                {
+                    "fr": "Ateliers Focus Group",
+                    "en": "Focus Group Workshops"
+                },
+                {
+                    "fr": "Création de \"Draw Your Inovans\"",
+                    "en": "Creation of \"Draw Your Inovans\""
+                },
+                {
+                    "fr": "Communication interne",
+                    "en": "Internal communication"
+                },
+                {
+                    "fr": "Team Building",
+                    "en": "Team Building"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Elektroscop",
+            "en_title": "Elektroscop",
+            "imageSrc": "projects/elektroscop.png",
+            "fr_shortDescription": "Aide à la conception et au positionnement stratégique pour la sortie du site Elektroscop.",
+            "en_shortDescription": "Assistance with design and strategy advices for the Elektroscop website.",
+            "fr_longDescription": "Elektroscop est un site créé pour permettre aux fans de musique électronique de trouver des soirées à proximité. Nous avons accompagné leurs créateurs pour le design de leur site et leur positionnement stratégique.",
+            "en_longDescription": "Elektroscop is a website made to allow electronic music addicts to find parties close to them. We helped their creators for their website's design and for their company strategy.",
+            "customer": "Elektroscop",
+            "company": "Freelance",
+            "id": "elektroscop",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "BUSINESS",
+                "MARKETING"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Etude de marché",
+                    "en": "Market audit"
+                }
+            ],
+            "tools": [
+                "Axure"
+            ]
+        },
+        {
+            "fr_title": "Formation Splunk",
+            "en_title": "Splunk training",
+            "imageSrc": "projects/splunk.png",
+            "fr_shortDescription": "Écriture et présentation d'une formation à la conception de dashboards sous Splunk.",
+            "en_shortDescription": "Writing and presentation of a training about the design of Splunk dashboards.",
+            "fr_longDescription": "Développeur Splunk confirmé, j'ai été challengé pour créer des dashboards toujours plus dynamiques et fonctionnels. J'ai été contacté pour former des managers aux nouvelles possibilités qui s'offraient à eux à travers Splunk et sa modularité.",
+            "en_longDescription": "As a confirmed Splunk developer, I have been challenged to create dashboards always more dynamics and functionals. So I have been contacted to train the managers about this new potential through Splunk and its modularity.",
+            "customer": "GFI",
+            "company": "Inovans",
+            "id": "splunk-formation",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "SPLUNK",
+                "TRAINING",
+                "BIG_DATA"
+            ],
+            "tasks": [
+                {
+                    "fr": "Ecriture de la formation",
+                    "en": "Training writing"
+                },
+                {
+                    "fr": "Formation de 12 personnes",
+                    "en": "Teaching for 12 people"
+                },
+                {
+                    "fr": "Initiation à Splunk",
+                    "en": "Splunk initiation"
+                },
+                {
+                    "fr": "Initiation à la DataViz",
+                    "en": "Data Visualization initiation"
+                },
+                {
+                    "fr": "Initiation aux dashboards Splunk en JavaScript",
+                    "en": "Custom JS Splunk Dashboards inititiation"
+                },
+                {
+                    "fr": "Initiation à l'UX Design",
+                    "en": "UX Design initiation"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Monitoring pour Airbus",
+            "en_title": "Monitoring for Airbus",
+            "imageSrc": "projects/splunk_dashboard.png",
+            "fr_shortDescription": "Conception et développement de dashboards Splunk pour monitorer les applications critiques.",
+            "en_shortDescription": "Design and development of Splunk dashboards to monitor critical applications.",
+            "fr_longDescription": "Afin de surveiller les applications propriétaires critiques, i.e pouvant affecter le bon fonctionnement d'un avion et des systèmes annexes, Airbus a choisi de les monitorer avec Splunk. Notre équipe a été la première à travailler dessus et à créer des dashboards fonctionnels. J'ai pu repousser les limites des interfaces classiques grâce à l'UX Design et au framework JS de Splunk.",
+            "en_longDescription": "In order to monitor some custom softwares, i.e able to affect a plane's and its annex systems' smooth functioning, Airbus has decided to monitor them with Splunk. Our team has been the first one to work on it and to create functional Splunk dashboards for Airbus. I had to push the limits of the classic Splunk interfaces, thanks to UX Design and Splunk's JS framework.",
+            "customer": "Airbus",
+            "company": "Inovans",
+            "id": "splunk-airbus",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "SPLUNK"
+            ],
+            "tasks": [
+                {
+                    "fr": "Auto-formation Splunk",
+                    "en": "Splunk self training"
+                },
+                {
+                    "fr": "Auto-formation au Framework JS Splunk",
+                    "en": "Splunk JS Framework self training"
+                },
+                {
+                    "fr": "Méthodes agiles avec SCRUM",
+                    "en": "SCRUM Agile processes"
+                },
+                {
+                    "fr": "Analyse des besoins utilisateurs ET clients",
+                    "en": "Customers AND users' needs analysis"
+                },
+                {
+                    "fr": "Maquettage Axure",
+                    "en": "Mockups with Axure"
+                },
+                {
+                    "fr": "Analyse Big Data pour extraire de l'information pertinente",
+                    "en": "Big Data analysis to extract smart data"
+                },
+                {
+                    "fr": "Développement de dashboards Splunk simples",
+                    "en": "Development of simple Splunk dashboards"
+                },
+                {
+                    "fr": "Développement de dashboards Splunk interactifs et complexes",
+                    "en": "Development of complexes and interactives Splunk dashboards"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Lead Analytics",
+            "en_title": "Lead Analytics",
+            "imageSrc": "projects/lead_analytics.png",
+            "fr_shortDescription": "Conception et développement d'une appli web pour stocker, analyser et visualiser des données de laboratoire.",
+            "en_shortDescription": "Design and development of a web app to store, analyze and visualize laboratory's data.",
+            "fr_longDescription": "Sur demande du chef de projet, j'ai mené une étude sur un logiciel existant pour identifier les principaux problèmes d'utilisabilité. Après avoir passé l'outil au crible des heuristiques, j'ai mené des tests utilisateurs puis maquetté de nouvelles interfaces répondant aux contraintes du client afin d'améliorer l'existant. Par la suite, j'ai été amené à développer des éléments d'interface.",
+            "en_longDescription": "At the request of the project leader, I have led a study on an existing software to identify the main usability issues. After the kick-off with the customers, some heuristic evaluation and usability tests, I have led many brainstorming workshops to build the new mockups. Then, I had to develop a part of these interfaces in AngularJS.",
+            "customer": "Sycomore",
+            "company": "Freelance",
+            "id": "lead-analytics",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "NODEJS",
+                "ANGULARJS"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                },
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Ateliers de conception participative",
+                    "en": "Participative design workshops"
+                },
+                {
+                    "fr": "Développement de widgets en AngularJS et NodeJS",
+                    "en": "Development of widgets with AngularJS and NodeJS"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Lead Sample",
+            "en_title": "Lead Sample",
+            "imageSrc": "projects/lead_sample.png",
+            "fr_shortDescription": "Conception et développement d'une appli web de gestion des échantillons d'un laboratoire.",
+            "en_shortDescription": "Design and development of a web app to manage the laboratory's samples.",
+            "fr_longDescription": "En réponse à un besoin émergent, j'ai mené une analyse des besoins et des ateliers de brainstorming pour concevoir une interface permettant aux scientifiques de gérer plus simplement, et en respectant le cadre légal, leurs échantillons de laboratoire.",
+            "en_longDescription": "In reaction to a rising need, I have led a users' need analysis and brainstorming workshops to design a web app for the scientist to manage simply, and in a legislative framework, their laboratory's samples.",
+            "customer": "Sycomore",
+            "company": "Freelance",
+            "id": "lead-sample",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "NODEJS",
+                "ANGULARJS"
+            ],
+            "tasks": [
+                {
+                    "fr": "Veille technique",
+                    "en": "Technical watch"
+                },
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Développement de widgets en AngularJS et NodeJS",
+                    "en": "Development of widgets with AngularJS and NodeJS"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Lead Catalog",
+            "en_title": "Lead Catalog",
+            "imageSrc": "projects/lead_catalog.png",
+            "fr_shortDescription": "Conception et développement d'une appli web de catalogage et de recherche sémantique de fichiers à haute volumétrie.",
+            "en_shortDescription": "Design and development of a web app with two main features : an automatic cataloging tool and a semantic search tool to manage a huge amount of files.",
+            "fr_longDescription": "Dans le prolongement d'un POC (Proof Of Concept) d'un collègue, on m'a demandé de remettre à plat et de reconcevoir l'outil à des fins commerciales. J'ai également mené une veille technique sur Lucène et ElasticSearch pour en connaître les possibilités et valider/infirmer certaines fonctionnalités en réponse aux besoins identifiés. Par la suite, j'ai pris la direction du développement front.",
+            "en_longDescription": "Starting from a workmate POC (Proof Of Concept), the management wanted me to design from scratch this idea to create a marketable software. I have led as well technical studies about Lucène and ElasticSearch to put forward their abilities and confirm / invalidate potential features answering some identified needs. Then, I have led the front development team.",
+            "customer": "Sycomore",
+            "company": "Freelance",
+            "id": "lead-catalog",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "ELASTIC",
+                "ANGULARJS",
+                "PROJECT_MANAGEMENT"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Veille (très) technique",
+                    "en": "(Very) technical watch"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Ateliers de conception participatif",
+                    "en": "Participative design workshops"
+                },
+                {
+                    "fr": "Tests Utilisateurs",
+                    "en": "User testing"
+                },
+                {
+                    "fr": "Développement en AngularJS et NodeJS",
+                    "en": "Development with AngularJS and NodeJS"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Communication spatiale",
+            "en_title": "Spatial communication",
+            "imageSrc": "projects/lander_mars.png",
+            "fr_shortDescription": "Conception et développement d'une interface web permettant de récolter et visualiser des données provenant d'un robot spatial.",
+            "en_shortDescription": "Design and development of a web interface to gather and visualize data incoming from a spatial robot.",
+            "fr_longDescription": "Dans le cadre du futur lancement d'un robot sur Mars, j'ai été chargé de concevoir et développer un POC (Proof Of Concept) d'affichage des fenêtres de communication et des données envoyées par le robot.",
+            "en_longDescription": "As a new robot was on its way to reach Mars, I had to design and develop a POC (Proof Of Concept) to display the communication windows and data sent by the robot.",
+            "customer": "CNRS",
+            "company": "Capgemini",
+            "id": "spatiale",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "ANGULARJS",
+                "WEB_DEV",
+                "NODEJS"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Compréhension des fortes contraintes de communication",
+                    "en": "Understanding of the strong communication constraints"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Développement en AngularJS",
+                    "en": "Development with AngularJS"
+                },
+                {
+                    "fr": "Utilisation d'un template Bootstrap",
+                    "en": "Use of a Bootstrap template"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Appli d'aide à l'achat",
+            "en_title": "Purchasing assistance app",
+            "imageSrc": "projects/capgemini.png",
+            "fr_shortDescription": "Conception d'un outil de saisie d'informations et de négociation de prix pour des acheteurs lors de marchés internationaux.",
+            "en_shortDescription": "Design of a tool for international market purchasers to input data and negociate prices.",
+            "fr_longDescription": "J'ai conçu une application tablette pour simplifier la négociation et l'achat en masse de biens sur des marchés internationaux. Le principal challenge a été de proposer des fonctionnaliés innovantes et adaptées à un environnement à forte sollicitation cognitive.",
+            "en_longDescription": "I designed a tablet application to help negociations and mass purchases on international markets. The main challenge has been to propose breaking features suitable to an environment with a high cognitive solicitation level.",
+            "customer": "Confidentiel",
+            "company": "Capgemini",
+            "id": "marketing",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage avec JustInMind",
+                    "en": "Mockups with JustInMind"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "JustInMind",
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Doctrines de l'Armée",
+            "en_title": "Army doctrines",
+            "imageSrc": "projects/armee_de_terre.png",
+            "fr_shortDescription": "Conception d'une application de gestion et de consultation des doctrines de l'Armée de Terre française.",
+            "en_shortDescription": "Design of a web app to manage and visualize the French Land Army's doctrines.",
+            "fr_longDescription": "L'Armée a constaté que son site listant les doctrines était peu utilisé, à cause de son manque d'utilisabilité. Après avoir étudié les soldats et leurs besoins, j'ai conçu une nouvelle interface leur permettant d'accéder rapidement aux doctrines correspondant aux situations dans lesquelles ils étaient impliqués.",
+            "en_longDescription": "The French Land Army has noticed that the website listing the doctrines wasn't used so far, because of a lack of usability. I have led a users' need study in order to build the new mockups which allows the soldiers to access quickly to doctrines which suits the situation they are implied in.",
+            "customer": "Armée de Terre",
+            "company": "Capgemini",
+            "id": "doctrines",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Tests utilisateurs",
+                    "en": "User testing"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "I-Care",
+            "en_title": "I-Care",
+            "imageSrc": "projects/efficiencia.png",
+            "fr_shortDescription": "Conception d'un Serious Game pour tablettes pour aider à l’optimisation de la consommation énergétique à domicile.",
+            "en_shortDescription": "Design of a Serious Game for tablets to help people to improve their home energy consumption.",
+            "fr_longDescription": "Efficiencia souhaitait mettre son moteur de prévision de consommation énergétique à portée de n'importe qui, avec pour vocation d'éduquer la population à une meilleure consommation de l'énergie domestique. J'ai mené une longue étude sur les applications persuasives (notamment sur les modèles de B.J. Fogg), le Serious Gaming et la pédagogie numérique. J'ai donc conçu un jeu pour tablettes qui permettait aux utilisateurs de mener des essais de configuration (\"Je baisse le chauffage d'un degré\", \"Je laisse mes volets fermés\", ...) et d'en constater la réussite ou non à la fin de la journée. J'ai développé un POC (Proof Of Concept), mais le projet a cependant dû s'arrêter par manque de financements.",
+            "en_longDescription": "Efficiencia wanted to provide a user-friendly way to anyone to access its energy consumption forcasting engine, in order to educate people to a better home energy consumption. I have led a long study about the persuasive applications (particularly with the B.J Fogg pattern), the Serious Gaming and the e-learning. So I have designed a game for tablets in which the users could try home configurations (e.g. \"I turn down the heating when I am out of home\", \"I close my shutters during daylight\", etc) and check their home consumption's level at the end of the day. I deloped as well a POC (Proof Of Concept), but the project stopped because of a lack of investors.",
+            "customer": "Efficiencia",
+            "company": "Efficiencia",
+            "id": "i-care",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "PERSUASIVE"
+            ],
+            "tasks": [
+                {
+                    "fr": "Etude sur les applications persuasives",
+                    "en": "Study of persuasive applications"
+                },
+                {
+                    "fr": "Etude sur le Serious Gaming",
+                    "en": "Study of Serious Gaming"
+                },
+                {
+                    "fr": "Etude sur la thermique des bâtiments",
+                    "en": "Study of buildings' thermics"
+                },
+                {
+                    "fr": "Création de personas",
+                    "en": "Personas creation"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                },
+                {
+                    "fr": "Développement d'un POC en Java",
+                    "en": "Development of a POC in Java"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "PIXEE",
+            "en_title": "PIXEE",
+            "imageSrc": "projects/efficiencia.png",
+            "fr_shortDescription": "Conception d'un outil de saisie thermique de bâtiments.",
+            "en_shortDescription": "Design of a tool to input buildings' thermic data.",
+            "fr_longDescription": "Le moteur de prévision de consommation énergétique des bâtiments d'Efficiencia a besoin de données précises sur le bâtiment en question. J'ai d'abord identifié les informations nécessaires grâce à une étroite collaboration avec un bureau d'étude et un chercheur en thermique des bâtiments, puis j'ai conçu une interface pour saisir le plus simplement possible toutes les informations nécessaires, en respectant les importantes contraintes environnementales des utilisateurs.",
+            "en_longDescription": "The Efficiencia's energy consumption forcasting engine needs specific data on the focused building. I started identifying the necessary data thanks to a close collaboration with a thermic engineering company and a building's thermics researcher, then I have designed an interface to input data as simply as possible which respects the huge environmental constraints of the users.",
+            "customer": "Efficiencia",
+            "company": "Efficiencia",
+            "id": "pixee",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Ateliers de brainstorming",
+                    "en": "Brainstorming workshops"
+                },
+                {
+                    "fr": "Ateliers de conception participative",
+                    "en": "Participative design workshops"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "NAIAD",
+            "en_title": "NAIAD",
+            "imageSrc": "projects/efficiencia.png",
+            "fr_shortDescription": "Conception et développement d'une interface Web pour visualiser les prévisions de consommation énergétique de bâtiments.",
+            "en_shortDescription": "Design and development of a web interface to visualize the buildings' consumption forecasting.",
+            "fr_longDescription": "Le moteur de prévisions de consommation énergétique des bâtiments d'Efficiencia produit des données très complexes. J'ai donc dû identifier les utilisateurs types, mesurer leur compréhension de ces données pour concevoir des interfaces qui leur présentent la donnée de manière concise et surtout utile.",
+            "en_longDescription": "The Efficiencia's energy consumption forcasting engine produces very complex data. So I had to identify the main users, mesure their understanding of this kind of data to design interfaces which display concise and useful data.",
+            "customer": "Efficiencia",
+            "company": "Efficiencia",
+            "id": "naiad",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV",
+                "BIG_DATA"
+            ],
+            "tasks": [
+                {
+                    "fr": "Analyse des besoins",
+                    "en": "Needs analysis"
+                },
+                {
+                    "fr": "Création de personas",
+                    "en": "Personas creation"
+                },
+                {
+                    "fr": "Analyse des données reçues",
+                    "en": "Analysis of gathered data"
+                },
+                {
+                    "fr": "Analyse Big Data pour extraire de l'information pertinente",
+                    "en": "Big Data analysis to extract smart data"
+                },
+                {
+                    "fr": "Maquettage Balsamiq",
+                    "en": "Mockups with Balsamiq"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "IntuiFace",
+            "en_title": "IntuiFace",
+            "imageSrc": "projects/intuiface.png",
+            "fr_shortDescription": "Implémentation d'un moteur physique dans le logiciel de présentation multitouch IntuiFace.",
+            "en_shortDescription": "Implementation of a physic engine in the Intuiface multitouch presentation software.",
+            "fr_longDescription": "Pour offrir de nouvelles possibilités aux utilisateurs d'IntuiFace, j'ai intégré un moteur physique pour pouvoir rajouter de l'inertie et/ou de la gravité aux composants IntuiFace. Le principal challenge a été de transformer les résultats complexes de la librairie Box2DJS en matrices CSS3. A la fin du projet, et pour démontrer les possibilités du moteur, j'ai réussi à implémenter via IntuiFace un jeu type \"Angry Birds\".",
+            "en_longDescription": "To provide new possibilities to the Intuiface's users, I implemented a physic engine to add inertia and/or gravity to the Intuiface's components. The main challenge has been to transform the complex results of the Box2DJS into CSS3 matrix. At the end of the project, to show the power of the new engine, I achieved to implement within Intuiface an \"Angry Birds\"-like game.",
+            "customer": "IntuiFace",
+            "company": "IntuiFace",
+            "id": "intuiface",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "WEB_DEV"
+            ],
+            "tasks": [
+                {
+                    "fr": "Développement en JS avec JQuery",
+                    "en": "Development in JS with JQuery"
+                },
+                {
+                    "fr": "Intégration du moteur physique Box2DJS",
+                    "en": "Integration of the Box2DJS physic engine"
+                },
+                {
+                    "fr": "Intégration graphique des résultats du moteur",
+                    "en": "Graphic integration of the engine's results"
+                },
+                {
+                    "fr": "Compréhension et manipulation des transformations matricielles CSS3",
+                    "en": "Understanding and manipulation of the CSS3 matrix transformations"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Un besoin ?",
+            "en_title": "Any need ?",
+            "imageSrc": "projects/workshop.jpg",
+            "fr_shortDescription": "Discutons ensemble de vos besoins et ajoutons votre projet à cette liste !",
+            "en_shortDescription": "Let's talk together about your needs, and add your project to this list !",
+            "fr_longDescription": "N'hésitez pas à me contacter pour n'importe quel besoin. Ma faculté d'adaptation professionnelle et sociale m'a permis de travailler sur des projets très variés dans des contextes parfois compliqués. Que vous ayez envie de redonner de la pêche à votre équipe, que vous souhaitiez assurer un projet complexe, ou que vous souhaitez concevoir et développer des applications innovantes... Parlons-en !",
+            "en_longDescription": "Please feel free to contact me for any need. My ability to adapt in professionnal and social contexts allowed me to work on very variable - and sometimes complex - fields. Whether you feel like boosting your team, managing a complex project or designing and developing innovative applications... Let's talk about it !",
+            "customer": "Vous",
+            "company": "Nous ?",
+            "id": "you",
+            "opacity": 0.3,
+            "tags": [
+                "UX_DESIGN",
+                "PROJECT_MANAGEMENT",
+                "HAPPINESS",
+                "MARKETING"
+            ],
+            "tasks": [
+                {
+                    "fr": "Définissons-les ensemble !",
+                    "en": "Let's build some together !"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        }
+    ]
+}
