@@ -235,8 +235,8 @@ let dictionary = {
         "RESUME_MATHSMASTER_TITLE": "Maths Master",
         "RESUME_MATHSMASTER_DATE": "2005 - 2010",
         "RESUME_MATHSMASTER_TEXT": "ENAC / Paul Sabatier, Toulouse",
-        "REFERENCES_TITLE" : "References",
-        "REFERENCES_TEXT" : "Contact information available on demand. Please use the <a href='./contact?lang=en' target='_blank'>contact form</a>.",
+        "REFERENCES_TITLE": "References",
+        "REFERENCES_TEXT": "Contact information available on demand. Please use the <a href='./contact?lang=en' target='_blank'>contact form</a>.",
         "TOPICS_TITLE": "Highlights",
         "TOPICS_TEXT": "Here is a list of inspiring topics, and because there are many people which explain them better than I do, I propose to you a sample of the best articles about them.",
         "TOPIC_UX_TITLE": "UX Design - Introduction",
@@ -273,7 +273,7 @@ let dictionary = {
         "FOOTER_LINKEDIN": "Does net work ?",
         "FOOTER_TWITTER": "Free time killer",
         "FOOTER_OPINION": "Your opinion matters",
-        "FOOTER_OPINION_TEXT": "Since you are here, this website should be made to fit your expectations. Satisfied or not ? I would be happy to get your feedbacks, so don't hesitate to send me <a class='orange-link' href='./contact.html?lang=en' target='_blank'>a mail</a>.",
+        "FOOTER_OPINION_TEXT": "Since you are here, this website should be made to fit your expectations. Satisfied or not ? I would be happy to get your feedbacks, so don't hesitate to send me <a class='orange-link' href='./contact.html?lang=en' target='_blank'>a mail</a> (particularly if you have some trouble understanding my english !).",
     },
     'fr': {
         "LANG_SWITCH": "FR > EN",
@@ -360,8 +360,8 @@ let dictionary = {
         "RESUME_MATHSMASTER_TITLE": "Maîtrise de Maths.",
         "RESUME_MATHSMASTER_DATE": "2005 - 2010",
         "RESUME_MATHSMASTER_TEXT": "ENAC / Paul Sabatier, Toulouse",
-        "REFERENCES_TITLE" : "Références",
-        "REFERENCES_TEXT" : "Informations de contact disponibles sur demande. Merci d'utiliser le <a href='./contact?lang=fr' target='_blank'>formulaire de contact</a>.",
+        "REFERENCES_TITLE": "Références",
+        "REFERENCES_TEXT": "Informations de contact disponibles sur demande. Merci d'utiliser le <a href='./contact?lang=fr' target='_blank'>formulaire de contact</a>.",
         "TOPICS_TITLE": "Inspirations",
         "TOPICS_TEXT": "Voici une liste de sujets qui m'inspirent, et vu que d'autres en parlent mieux que moi je vous propose une sélection des meilleurs articles à ce sujet !",
         "TOPIC_UX_TITLE": "UX Design - Introduction",
@@ -458,11 +458,18 @@ function updateLangInURL(lang) {
 
     baseQuery.lang = lang;
 
+    let newQueryString = createQueryStringFromObject(baseQuery);
+
+    window.history.pushState('', '', newQueryString);
+}
+
+function createQueryStringFromObject(queryObject) {
+
     let newQueryString = "?";
-    let queryKeys = Object.keys(baseQuery);
+    let queryKeys = Object.keys(queryObject);
 
     queryKeys.forEach(function (key, index) {
-        let queryValue = baseQuery[key];
+        let queryValue = queryObject[key];
         if (Array.isArray(queryValue)) {
             queryValue.forEach(function (value, valueIndex) {
                 newQueryString += key + "=" + value;
@@ -476,7 +483,7 @@ function updateLangInURL(lang) {
         if (index < queryKeys.length - 1) newQueryString += "&";
     });
 
-    window.history.pushState('', '', newQueryString);
+    return newQueryString;
 }
 
 /***************
@@ -489,6 +496,10 @@ function getQueryVariable() {
     // get query string from window
     var queryString = window.location.search.slice(1);
 
+    return computeQueryVariable(queryString);
+}
+
+function computeQueryVariable(queryString) {
     // we'll store the parameters here
     var obj = {};
 
@@ -557,10 +568,16 @@ function bindLinks() {
     $(".custom-link").click(function (e) {
         e.preventDefault();
 
-        let lang = getQueryVariable().lang;
         let link = $(this).data("link");
+        let linkBase = link.split('?')[0];
+        let linkQuery = link.split('?')[1];
+        if (linkQuery === undefined) linkQuery = "";
+        let linkQueryObject = computeQueryVariable(linkQuery);
 
-        window.location.href = link + "?lang=" + lang;
+        // Transfers the existing lang
+        linkQueryObject.lang = getQueryVariable().lang;
+
+        window.location.href = linkBase + createQueryStringFromObject(linkQueryObject);
     });
 }
 

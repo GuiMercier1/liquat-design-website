@@ -53,6 +53,7 @@ function computeFilters() {
 
     //TODO THERE IS A BUG WHEN YOU REFRESH THE PAGE, FILTERS ARE NOT SET ANYMORE
     let uriFilters = getQueryVariable().filter;
+    console.log(uriFilters);
     if (!Array.isArray(uriFilters)) uriFilters = [uriFilters];
     let presetFilters = uriFilters.map(decodeURI);
 
@@ -71,7 +72,6 @@ function computeFilters() {
     let activeClass;
     filters.forEach(function (filter) {
         activeClass = filter.active ? " filter-selected" : "";
-        console.log('PROJECTS_TAGS_' + filter.id);
         filtersHTML += '<li><a href="#" class="filter' + activeClass + '" data-value="' + filter.id + '">#<span data-translate="PROJECTS_TAGS_' + filter.id + '"></span></a></li>';
     });
 
