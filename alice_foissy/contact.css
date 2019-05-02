@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.contact-title {
+    text-align: center;
+}
+
+.mail-input {
+    text-align: center;
+}
+
+.success-toastr{
+    background-color:#51a351;
+    color:white;
+}
+
+.info-toastr{
+    background-color:#2f96b4;
+    color:white;
+}
+
+.error-toastr{
+    background-color:#bd362f;
+    color:white;
+}
