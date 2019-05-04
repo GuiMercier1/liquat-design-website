@@ -39,7 +39,7 @@ function createProjectCard(project, displayOnSmallScreen) {
         '<div class="col s12 m4 project-card-col ' + displayClass + '">'
         + '<div class="card project-card hoverable" data-needpopup-show="#' + project.id + '">'
         + '<div class="card-image">'
-        + '<img src="img/' + project.imageSrc + '">'
+        + '<img src="img/' + project.imageSrc + '" alt="Project\'s picture">'
         + '<div class="card-overlay" style="opacity:' + + project.opacity + '"></div>'
         + '</div>'
         + '<div class="card-content">'
