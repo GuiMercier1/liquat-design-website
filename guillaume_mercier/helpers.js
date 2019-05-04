@@ -158,6 +158,7 @@ let dictionary = {
         "HEADER_REFERENCES": "References",
         "HEADER_TOPICS": "Highlights",
         "HEADER_CONTACT": "Contact",
+        "INDEX_HTML_TITLE": "Guillaume Mercier",
         "INDEX_SKILLS": "Skills",
         "INDEX_SKILLS_TEXT": "With more than 5 years of experience in the digital field, I can assist your project, customers and users in many ways : ",
         "INDEX_DEVELOPER_TITLE": "Web Developer",
@@ -174,6 +175,7 @@ let dictionary = {
         "INDEX_TEAM_TEXT": "Work should not be laborious ! Let boost together your teams' motivation to create an environment within we will all be able to reveal our full potential.",
         "INDEX_ALL_PROJECTS": "All projects",
         "INDEX_CUSTOMERS": "Customers",
+        "PORTFOLIO_HTML_TITLE": "Portfolio - Guillaume Mercier",
         "PORTFOLIO_CUSTOMER": "Customer",
         "PORTFOLIO_COMPANY": "Company",
         "PORTFOLIO_CHALLENGES": "Challenges",
@@ -190,6 +192,7 @@ let dictionary = {
         "PROJECTS_TAGS_ANGULARJS": "AngularJS",
         "PROJECTS_TAGS_ELASTIC": "ElasticSearch",
         "PROJECTS_TAGS_PERSUASIVE": "Persuasive Apps",
+        "RESUME_HTML_TITLE": "Resume - Guillaume Mercier",
         "RESUME_TITLE": "Experiences",
         "RESUME_DOWNLOAD": "My resume (PDF)",
         "RESUME_CONTACT_TITLE": "You are here",
@@ -235,8 +238,10 @@ let dictionary = {
         "RESUME_MATHSMASTER_TITLE": "Maths Master",
         "RESUME_MATHSMASTER_DATE": "2005 - 2010",
         "RESUME_MATHSMASTER_TEXT": "ENAC / Paul Sabatier, Toulouse",
+        "REFERENCES_HTML_TITLE": "References - Guillaume Mercier",
         "REFERENCES_TITLE": "References",
         "REFERENCES_TEXT": "Contact information available on demand. Please use the <a href='./contact?lang=en' target='_blank'>contact form</a>.",
+        "TOPICS_HTML_TITLE": "Highlights - Guillaume Mercier",
         "TOPICS_TITLE": "Highlights",
         "TOPICS_TEXT": "Here is a list of inspiring topics, and because there are many people which explain them better than I do, I propose to you a sample of the best articles about them.",
         "TOPIC_UX_TITLE": "UX Design - Introduction",
@@ -263,6 +268,7 @@ let dictionary = {
         "TOPIC_EMPLOYEE_TEXT": "My own definition of the Employee eXperience (EX) is to apply the UX processes on a company's employees. As the main actors of it, they must been listened and taken into account for most of the company's decisions. By using the UX methods and workshops, we can define their values and expectations to create a symbiosis with the company's economic and strategic needs. Working on EX will have a huge impact on the company's employees well being and involvment.",
         "TOPIC_EMPLOYEE_LINK_1": "Introduction (FR)",
         "TOPIC_EMPLOYEE_LINK_2": "EX - The guide (EN)",
+        "CONTACT_HTML_TITLE": "Contact - Guillaume Mercier",
         "CONTACT_TITLE": "Get in touch !",
         "CONTACT_TEXT": "Any need ? Any project ? Let's talk about it !",
         "CONTACT_NAME": "First name / Last name",
@@ -283,6 +289,7 @@ let dictionary = {
         "HEADER_REFERENCES": "Références",
         "HEADER_TOPICS": "Inspirations",
         "HEADER_CONTACT": "Contact",
+        "INDEX_HTML_TITLE": "Guillaume Mercier",
         "INDEX_SKILLS": "Compétences",
         "INDEX_SKILLS_TEXT": "Avec plus de 5 ans d'expériences dans l'univers du digital, je peux assister vos projets, vos clients et vos utilisateurs de plusieurs manières :",
         "INDEX_DEVELOPER_TITLE": "Développeur Web",
@@ -299,6 +306,7 @@ let dictionary = {
         "INDEX_TEAM_TEXT": "Le travail n'a pas à être pénible ! Renforçons ensemble la motivation de vos équipes pour créer un environnement dans lequel nous pourrons tous révéler notre plein potentiel.",
         "INDEX_ALL_PROJECTS": "Tous les projets",
         "INDEX_CUSTOMERS": "Clients",
+        "PORTFOLIO_HTML_TITLE": "Portfolio - Guillaume Mercier",
         "PORTFOLIO_CUSTOMER": "Client",
         "PORTFOLIO_COMPANY": "Entreprise",
         "PORTFOLIO_CHALLENGES": "Défis",
@@ -315,6 +323,7 @@ let dictionary = {
         "PROJECTS_TAGS_ANGULARJS": "AngularJS",
         "PROJECTS_TAGS_ELASTIC": "Elastic Search",
         "PROJECTS_TAGS_PERSUASIVE": "Apps Persuasives",
+        "RESUME_HTML_TITLE": "Curriculum - Guillaume Mercier",
         "RESUME_TITLE": "Expériences",
         "RESUME_DOWNLOAD": "Mon CV (PDF)",
         "RESUME_CONTACT_TITLE": "Vous êtes ici",
@@ -360,8 +369,10 @@ let dictionary = {
         "RESUME_MATHSMASTER_TITLE": "Maîtrise de Maths.",
         "RESUME_MATHSMASTER_DATE": "2005 - 2010",
         "RESUME_MATHSMASTER_TEXT": "ENAC / Paul Sabatier, Toulouse",
+        "REFERENCES_HTML_TITLE": "Références - Guillaume Mercier",
         "REFERENCES_TITLE": "Références",
         "REFERENCES_TEXT": "Informations de contact disponibles sur demande. Merci d'utiliser le <a href='./contact?lang=fr' target='_blank'>formulaire de contact</a>.",
+        "TOPICS_HTML_TITLE": "Inspirations - Guillaume Mercier",
         "TOPICS_TITLE": "Inspirations",
         "TOPICS_TEXT": "Voici une liste de sujets qui m'inspirent, et vu que d'autres en parlent mieux que moi je vous propose une sélection des meilleurs articles à ce sujet !",
         "TOPIC_UX_TITLE": "UX Design - Introduction",
@@ -388,6 +399,7 @@ let dictionary = {
         "TOPIC_EMPLOYEE_TEXT": "Ma propre définition de l'expérience employé (EX), c'est d'appliquer les processus de l'UX aux employés d'une entreprise. En tant que principaux acteurs de celle-ci, ils doivent être écoutés et pris en compte dans la plupart des décisions de l'entreprise. En utilisant les techniques et ateliers de l'UX, on peut donc définir leurs valeurs et leurs attentes pour créer une vraie symbiose avec les besoins économiques et stratégiques de l'entreprise. Travailler sur l'EX aura un grand impact sur le bien-être et donc l'implication de vos employés.",
         "TOPIC_EMPLOYEE_LINK_1": "Introduction (FR)",
         "TOPIC_EMPLOYEE_LINK_2": "Le guide (EN)",
+        "CONTACT_HTML_TITLE": "Contact - Guillaume Mercier",
         "CONTACT_TITLE": "Contactons-nous",
         "CONTACT_TEXT": "Un besoin ? Un projet ? Discutons-en !",
         "FOOTER_CONTACT": "Contactez-moi !",
@@ -447,7 +459,7 @@ function updateURL(queryString, replaceHistory) {
 
     let newQueryString = "?lang=" + lang + (queryString === "" ? "" : "&" + queryString)
 
-    if(replaceHistory) window.history.replaceState('', '', newQueryString);
+    if (replaceHistory) window.history.replaceState('', '', newQueryString);
     else window.history.pushState('', '', newQueryString);
 }
 
