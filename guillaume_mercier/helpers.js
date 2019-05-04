@@ -148,7 +148,7 @@ function manageHeader(data) {
  * TRANSLATION TOOLS
  *********************/
 
-let defaultLang = 'en';
+let defaultLang = 'fr';
 let dictionary = {
     'en': {
         "LANG_SWITCH": "EN > FR",
@@ -423,7 +423,7 @@ function initTranslator() {
         setInUrl = true;
     }
 
-    if (setInURL) updateLangInURL(lang);
+    if (setInURL) updateLangInURL(lang, true);
 
     translator = Translator({
         language: lang,
@@ -442,25 +442,27 @@ function triggerTranslator() {
 /**
  * Updates a new query string in URL but taking into account the lang query
  */
-function updateURL(queryString) {
+function updateURL(queryString, replaceHistory) {
     let lang = getQueryVariable().lang;
 
     let newQueryString = "?lang=" + lang + (queryString === "" ? "" : "&" + queryString)
 
-    window.history.pushState('', '', newQueryString);
+    if(replaceHistory) window.history.replaceState('', '', newQueryString);
+    else window.history.pushState('', '', newQueryString);
 }
 
 /**
  * Updates the lang in URL but taking into account any existing query
  */
-function updateLangInURL(lang) {
+function updateLangInURL(lang, replaceHistory) {
     let baseQuery = getQueryVariable();
 
     baseQuery.lang = lang;
 
     let newQueryString = createQueryStringFromObject(baseQuery);
 
-    window.history.pushState('', '', newQueryString);
+    if (replaceHistory) window.history.replaceState('', '', newQueryString);
+    else window.history.pushState('', '', newQueryString);
 }
 
 function createQueryStringFromObject(queryObject) {

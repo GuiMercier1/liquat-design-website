@@ -154,6 +154,14 @@ nav {
     top: 10px;
 }
 
+ul.tasks-list {
+    padding-left: 25px!important;
+}
+
+ul.tasks-list>li {
+    list-style-type: circle!important;
+}
+
 .mobile-parallax.parallax-container {
     height: 300px;
 }
