@@ -26,8 +26,8 @@ nav {
 .sidenav {
     background-color: #474486;
     width: 225px;
-    height:100%;
-    padding-bottom:0px;
+    height: 100%;
+    padding-bottom: 0px;
 }
 
 .sidenav li>a, .sidenav li>a>i {
@@ -92,6 +92,18 @@ nav {
     }
 }
 
+h1.page-head-title {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+h1.page-head-sub-title {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 2.3733333333rem 0 1.424rem 0;
+}
+
 .main-job {
     color: rgba(0, 0, 0, 0.87)
 }
@@ -105,7 +117,7 @@ nav {
 }
 
 .project-card-col {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .project-card {
@@ -221,7 +233,7 @@ footer .link-icon {
 
 .skill-intro {
     color: rgba(0, 0, 0, 0.8);
-    margin-top:35px;
+    margin-top: 35px;
 }
 
 .skill-row {
@@ -251,7 +263,7 @@ footer .link-icon {
     padding-top: 35px;
     padding-bottom: 35px;
     border-radius: 8px;
-    border: 1px solid rgba(0,0,0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     height: 100%;
 }
 
