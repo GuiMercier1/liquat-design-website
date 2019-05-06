@@ -13,8 +13,8 @@
             "id": "my_website",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
+                "UX-DESIGN",
+                "WEB-DEV",
                 "MARKETING"
             ],
             "tasks": [
@@ -64,8 +64,8 @@
             "id": "inovapps",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "PROJECT_MANAGEMENT"
+                "UX-DESIGN",
+                "PROJECT-MANAGEMENT"
             ],
             "tasks": [
                 {
@@ -111,7 +111,7 @@
             "id": "digital-site",
             "opacity": 0.3,
             "tags": [
-                "WEB_DEV"
+                "WEB-DEV"
             ],
             "tasks": [
                 {
@@ -189,7 +189,7 @@
             "id": "elektroscop",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
+                "UX-DESIGN",
                 "BUSINESS",
                 "MARKETING"
             ],
@@ -224,11 +224,11 @@
             "id": "splunk-formation",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
+                "UX-DESIGN",
+                "WEB-DEV",
                 "SPLUNK",
                 "TRAINING",
-                "BIG_DATA"
+                "BIG-DATA"
             ],
             "tasks": [
                 {
@@ -273,8 +273,8 @@
             "id": "splunk-airbus",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
+                "UX-DESIGN",
+                "WEB-DEV",
                 "SPLUNK"
             ],
             "tasks": [
@@ -328,8 +328,8 @@
             "id": "lead-analytics",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
+                "UX-DESIGN",
+                "WEB-DEV",
                 "NODEJS",
                 "ANGULARJS"
             ],
@@ -380,8 +380,8 @@
             "id": "lead-sample",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
+                "UX-DESIGN",
+                "WEB-DEV",
                 "NODEJS",
                 "ANGULARJS"
             ],
@@ -428,11 +428,11 @@
             "id": "lead-catalog",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
+                "UX-DESIGN",
+                "WEB-DEV",
                 "ELASTIC",
                 "ANGULARJS",
-                "PROJECT_MANAGEMENT"
+                "PROJECT-MANAGEMENT"
             ],
             "tasks": [
                 {
@@ -477,9 +477,9 @@
             "id": "spatiale",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
+                "UX-DESIGN",
                 "ANGULARJS",
-                "WEB_DEV",
+                "WEB-DEV",
                 "NODEJS"
             ],
             "tasks": [
@@ -521,7 +521,7 @@
             "id": "marketing",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN"
+                "UX-DESIGN"
             ],
             "tasks": [
                 {
@@ -559,7 +559,7 @@
             "id": "doctrines",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN"
+                "UX-DESIGN"
             ],
             "tasks": [
                 {
@@ -592,7 +592,7 @@
             "id": "i-care",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
+                "UX-DESIGN",
                 "PERSUASIVE"
             ],
             "tasks": [
@@ -642,7 +642,7 @@
             "id": "pixee",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN"
+                "UX-DESIGN"
             ],
             "tasks": [
                 {
@@ -679,9 +679,9 @@
             "id": "naiad",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV",
-                "BIG_DATA"
+                "UX-DESIGN",
+                "WEB-DEV",
+                "BIG-DATA"
             ],
             "tasks": [
                 {
@@ -722,8 +722,8 @@
             "id": "intuiface",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "WEB_DEV"
+                "UX-DESIGN",
+                "WEB-DEV"
             ],
             "tasks": [
                 {
@@ -760,8 +760,8 @@
             "id": "you",
             "opacity": 0.3,
             "tags": [
-                "UX_DESIGN",
-                "PROJECT_MANAGEMENT",
+                "UX-DESIGN",
+                "PROJECT-MANAGEMENT",
                 "HAPPINESS",
                 "MARKETING"
             ],
