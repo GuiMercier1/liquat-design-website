@@ -23,6 +23,10 @@ nav {
     background-color: #474486;
 }
 
+.keyword_holder {
+    display: none;
+}
+
 .sidenav {
     background-color: #474486;
     width: 225px;
