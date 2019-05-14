@@ -7,7 +7,7 @@
             "fr_shortDescription": "Création d'un site web pour présenter mes compétences, mon parcours et mes projets.",
             "en_shortDescription": "Creation of a website to put forwards my skills, my journey and my projects.",
             "fr_longDescription": "J'ai souhaité faire un site \"vendeur\", mais qui respecte mes valeurs et ma personnalité, à savoir l'humour, l'adaptabilité, la sociabilité, et d'autres que je vous laisse découvrir ici. J'ai relevé ce challenge de mêler le ludique et le sérieux et vous êtes seuls juges de sa réussite !<br /><br />J'ai appliqué ma stratégie UX (analyse des besoins, idéation, maquettes, feedbacks utilisateurs, ...) pour vous proposer une expérience utile - à vous comme à moi - et agréable.<br /><br />N'hésitez pas à me faire le moindre retour !",
-            "en_longDescription": "I wanted to make a \"self-marketing\" oriented website, but which respects my values and my personnality which are humor, adaptability, sociability and many more that I let you find out here. I took this challenge to mix fun and seriousness, and you will be the only judges of its success !<br /><br />I have applied my UX strategy (needs analysis, ideation, mockups, user feedbacks, ...) to propose you a usefull - for you as much as for me - and pleasant experience.<br /><br />Please contact me for any feedback !",
+            "en_longDescription": "I wanted to make a \"self-marketing\" oriented website, but which respects my values and my personnality which are humor, adaptability, sociability and many more that I let you find out here. I took this challenge to mix fun and seriousness, and you will be the only judges of its success !<br /><br />I have applied my UX strategy (needs analysis, ideation, mockups, user feedbacks, ...) to offer you a usefull - for you as much as for me - and pleasant experience.<br /><br />Please contact me for any feedback !",
             "customer": "Vous / You",
             "company": "Moi-même / Myself",
             "id": "my_website",
@@ -56,9 +56,9 @@
             "en_title": "Inov'Apps",
             "imageSrc": "projects/inovans.png",
             "fr_shortDescription": "Conception d'un logiciel de management ludique pour répondre au potentiel isolement des consultants chez le client.",
-            "en_shortDescription": "Design of a playful management software to prevent some consultants' potential isolation.",
+            "en_shortDescription": "Design of a recreational management software to prevent some consultants' potential isolation.",
             "fr_longDescription": "Suite au développement du bien-être au travail à Inovans, nous avons souhaité faire évoluer nous outils internes pour que tous les consultants puissent garder contact entre eux et avec leur manager afin de renforcer la cohésion et d'éviter l'isolement. La première version a été plébiscitée par les consultants comme reflet de notre identité.",
-            "en_longDescription": "Following the \"wellness at work\" development at Inovans, we wanted to improve our internal tools for all the consultats to keep contact amongst us and with their manager to enhance cohesion and avoid isolation. The first version has been plebiscited by our consultants as a reflect of our identity.",
+            "en_longDescription": "Following the \"wellness at work\" development at Inovans, we wanted to improve our internal tools for all the consultaNts.  So they could  keep contact with each other and with their manager  in order to enhance cohesion and avoid isolation. The first version has been plebiscited by our consultants as a reflect of our identity.",
             "customer": "Inovans",
             "company": "Inovans",
             "id": "inovapps",
@@ -142,7 +142,7 @@
             "fr_shortDescription": "Transformation humaine et structurelle de l'agence pour améliorer le bien-être des consultants.",
             "en_shortDescription": "Inovans agency's human and structural conversion to improve every consultant's wellness at work.",
             "fr_longDescription": "En compagnie du directeur et des managers d'Inovans, nous avons constaté que certains consultants se sentaient isolés et / ou déçus à cause de certains dysfonctionnements. J'ai donc créé le concept de \" Draw Your Inovans\" avec le soutien du management pour appliquer l'esprit de l'UX Design à mes collègues en leur proposant de co-créer une entreprise qui leur ressemble.",
-            "en_longDescription": "With the management team, we noted that some consultants may feel isolation and/or disappointment because of some dysfunctions. So I have created the concept of \"Draw Your Inovans\" with the management team and I have brought the mindset of UX Design to my workmates to propose them to co-create a company which fits them better.",
+            "en_longDescription": "With the management team, we noted that some consultants may feel isolation and/or disappointment because of some dysfunctions. So along with the management team I created the concept of \"Draw Your Inovans\" and brought the mindset of UX Design to my colleagues in order to offer them the opportunity to co-create a company in which they would better fit in.",
             "customer": "Inovans",
             "company": "Inovans",
             "id": "draw-your-inovans",
@@ -165,7 +165,7 @@
                 },
                 {
                     "fr": "Communication interne",
-                    "en": "Internal communication"
+                    "en": "In house communication"
                 },
                 {
                     "fr": "Team Building",
@@ -181,9 +181,9 @@
             "en_title": "Elektroscop",
             "imageSrc": "projects/elektroscop.png",
             "fr_shortDescription": "Aide à la conception et au positionnement stratégique pour la sortie du site Elektroscop.",
-            "en_shortDescription": "Assistance with design and strategy advices for the Elektroscop website.",
+            "en_shortDescription": "Design and strategy advices aid for the Elektroscop website.",
             "fr_longDescription": "Elektroscop est un site créé pour permettre aux fans de musique électronique de trouver des soirées à proximité. Nous avons accompagné leurs créateurs pour le design de leur site et leur positionnement stratégique.",
-            "en_longDescription": "Elektroscop is a website made to allow electronic music addicts to find parties close to them. We helped their creators for their website's design and for their company strategy.",
+            "en_longDescription": "Elektroscop is a website that has been created for electronic music fans to find parties close to their location. We went hand in hand with their founders for the website design and the strategic positioning. Unfortunately the project never happened due to a lack of resources.",
             "customer": "Elektroscop",
             "company": "Freelance",
             "id": "elektroscop",
@@ -218,7 +218,7 @@
             "fr_shortDescription": "Écriture et présentation d'une formation à la conception de dashboards sous Splunk.",
             "en_shortDescription": "Writing and presentation of a training about the design of Splunk dashboards.",
             "fr_longDescription": "Développeur Splunk confirmé, j'ai été challengé pour créer des dashboards toujours plus dynamiques et fonctionnels. J'ai été contacté pour former des managers aux nouvelles possibilités qui s'offraient à eux à travers Splunk et sa modularité.",
-            "en_longDescription": "As a confirmed Splunk developer, I have been challenged to create dashboards always more dynamics and functionals. So I have been contacted to train the managers about this new potential through Splunk and its modularity.",
+            "en_longDescription": "As a confirmed Splunk developer, I have always  been challenged to create  more dynamics and functional dashboards. I have been contacted to train the managers about this new potential through Splunk and its modularity.",
             "customer": "GFI",
             "company": "Inovans",
             "id": "splunk-formation",
@@ -237,7 +237,7 @@
                 },
                 {
                     "fr": "Formation de 12 personnes",
-                    "en": "Teaching for 12 people"
+                    "en": "Training 12 people"
                 },
                 {
                     "fr": "Initiation à Splunk",
@@ -322,7 +322,7 @@
             "fr_shortDescription": "Conception et développement d'une appli web pour stocker, analyser et visualiser des données de laboratoire.",
             "en_shortDescription": "Design and development of a web app to store, analyze and visualize laboratory's data.",
             "fr_longDescription": "Sur demande du chef de projet, j'ai mené une étude sur un logiciel existant pour identifier les principaux problèmes d'utilisabilité. Après avoir passé l'outil au crible des heuristiques, j'ai mené des tests utilisateurs puis maquetté de nouvelles interfaces répondant aux contraintes du client afin d'améliorer l'existant. Par la suite, j'ai été amené à développer des éléments d'interface.",
-            "en_longDescription": "At the request of the project leader, I have led a study on an existing software to identify the main usability issues. After the kick-off with the customers, some heuristic evaluation and usability tests, I have led many brainstorming workshops to build the new mockups. Then, I had to develop a part of these interfaces in AngularJS.",
+            "en_longDescription": "On the project manager’s demand, I have led a study on an existing software to identify the main usability issues. After the kick-off with customers, some heuristic evaluation and usability tests, I have led many brainstorming workshops to build the new mockups. Then, I developed a part of these interfaces in AngularJS.",
             "customer": "Sycomore",
             "company": "Freelance",
             "id": "lead-analytics",
@@ -515,7 +515,7 @@
             "fr_shortDescription": "Conception d'un outil de saisie d'informations et de négociation de prix pour des acheteurs lors de marchés internationaux.",
             "en_shortDescription": "Design of a tool for international market purchasers to input data and negociate prices.",
             "fr_longDescription": "J'ai conçu une application tablette pour simplifier la négociation et l'achat en masse de biens sur des marchés internationaux. Le principal challenge a été de proposer des fonctionnaliés innovantes et adaptées à un environnement à forte sollicitation cognitive.",
-            "en_longDescription": "I designed a tablet application to help negociations and mass purchases on international markets. The main challenge has been to propose breaking features suitable to an environment with a high cognitive solicitation level.",
+            "en_longDescription": "I designed a tablet application to help negociations and mass purchases on international markets. The main challenge has been to offer breaking features suitable to an environment with a high cognitive solicitation level.",
             "customer": "Confidentiel",
             "company": "Capgemini",
             "id": "marketing",

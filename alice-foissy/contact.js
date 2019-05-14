@@ -1,7 +1,7 @@
 /******************************************************
  * Hi there ! Thanks for inspecting my code
  * If you find something interesting *slash* disgusting
- * Please keep me informed at gui.mercier1@gmail.com :)
+ * Please keep me informed at alice.foissy@gmail.com :)
  * Thanks !
  ******************************************************/
 "use strict";
@@ -33,7 +33,7 @@ promises.push(new Promise(function (resolve, reject) {
 
             M.toast({ html: "Envoi en cours ...", classes: "info-toastr" });
 
-            emailjs.sendForm('gmail', 'template_ciR8ayRa', '#contact-form')
+            emailjs.sendForm('gmail_alice', 'template_ciR8ayRa_clone', '#contact-form')
                 .then(function (response) {
                     M.toast({ html: "Message envoyé !", classes: "success-toastr" });
                     // Then we clean the form
@@ -48,5 +48,5 @@ promises.push(new Promise(function (resolve, reject) {
     });
 }));
 
-Promise.all(promises).then(initAndDisplayContent); 
+Promise.all(promises).then(initAndDisplayContent);
 

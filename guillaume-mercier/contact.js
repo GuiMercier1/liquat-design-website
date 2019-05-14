@@ -48,5 +48,5 @@ promises.push(new Promise(function (resolve, reject) {
     });
 }));
 
-Promise.all(promises).then(initAndDisplayContent); 
+Promise.all(promises).then(initAndDisplayContent);
 

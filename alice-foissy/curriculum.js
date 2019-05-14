@@ -1,7 +1,7 @@
 /******************************************************
  * Hi there ! Thanks for inspecting my code
  * If you find something interesting *slash* disgusting
- * Please keep me informed at gui.mercier1@gmail.com :)
+ * Please keep me informed at alice.foissy@gmail.com :)
  * Thanks !
  ******************************************************/
 "use strict";
