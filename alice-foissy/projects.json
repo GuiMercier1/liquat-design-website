@@ -138,15 +138,24 @@
         {
             "fr_title": "Elektroscop",
             "imageSrc": "projects/elektroscop.png",
-            "fr_shortDescription": "TODO",
-            "fr_longDescription": "",
-            "customer": "TODO",
-            "company": "TODO",
-            "id": "electroscop",
+            "fr_shortDescription": "Aide à la conception et au positionnement stratégique pour la sortie du site Elektroscop.",
+            "fr_longDescription": "Elektroscop est un site créé pour permettre aux fans de musique électronique de trouver des soirées à proximité. Nous avons accompagné leurs créateurs pour le design de leur site et leur positionnement stratégique.",
+            "customer": "Elektroscop",
+            "company": "Freelance",
+            "id": "elektroscop",
             "opacity": 0.3,
             "tasks": [
                 {
-                    "fr": "TODO"
+                    "fr": "Analyse de l'existant",
+                    "en": "Audit of the existing"
+                },
+                {
+                    "fr": "Maquettage",
+                    "en": "Mockups"
+                },
+                {
+                    "fr": "Etude de marché",
+                    "en": "Market audit"
                 }
             ],
             "tools": [
