@@ -9,11 +9,6 @@
             "company": "CToutVert",
             "id": "ctv1",
             "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
             "tasks": [
                 {
                     "fr": "Evaluation heuristique de l’interface existante"
@@ -44,11 +39,6 @@
             "company": "CtoutVert",
             "id": "ctv2",
             "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
             "tasks": [
                 {
                     "fr": "Evaluation heuristique de l’interface existante"
@@ -79,11 +69,6 @@
             "company": "Human Design Group",
             "id": "HDG2",
             "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
             "tasks": [
                 {
                     "fr": "Observation des techniciens dans leur environnement de travail"
@@ -108,11 +93,6 @@
             "company": "Orange",
             "id": "Orange",
             "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
             "tasks": [
                 {
                     "fr": "Recherche des évaluations sur la charge de travail en psychologie"
@@ -137,11 +117,6 @@
             "company": "UTBM",
             "id": "UTBM",
             "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
             "tasks": [
                 {
                     "fr": " Veille technologique"
@@ -163,26 +138,15 @@
         {
             "fr_title": "Elektroscop",
             "imageSrc": "projects/elektroscop.png",
-            "fr_shortDescription": "Refonte d’un portail à destination des Ingénieurs commerciaux d’Orange.",
-            "fr_longDescription": "J'ai souhaité faire un site \"vendeur\", mais qui respecte mes valeurs et ma personnalité, à savoir l'humour, l'adaptabilité, la sociabilité, et d'autres que je vous laisse découvrir ici. J'ai relevé ce challenge de mêler le ludique et le sérieux et vous êtes seuls juges de sa réussite !<br /><br />J'ai appliqué ma stratégie UX (analyse des besoins, idéation, maquettes, feedbacks utilisateurs, ...) pour vous proposer une expérience utile - à vous comme à moi - et agréable.<br /><br />N'hésitez pas à me faire le moindre retour !",
-            "customer": "Orange",
-            "company": "Human Design Group",
+            "fr_shortDescription": "TODO",
+            "fr_longDescription": "",
+            "customer": "TODO",
+            "company": "TODO",
             "id": "electroscop",
             "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
             "tasks": [
                 {
-                    "fr": "Définition des buts et besoins des ingénieurs"
-                },
-                {
-                    "fr": "Maquettage d’un nouveau portail"
-                },
-                {
-                    "fr": "Tests de l'interface avec les ingénieurs"
+                    "fr": "TODO"
                 }
             ],
             "tools": [
