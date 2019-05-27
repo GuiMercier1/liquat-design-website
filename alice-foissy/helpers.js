@@ -169,7 +169,7 @@ let dictionary = {
         "INDEX_PSY_TITLE": "Background en psychologie",
         "INDEX_PSY_TEXT": "Mon master en psychologie me permet de recueillir des informations en influençant au minimum les utilisateurs. Mes connaissances dans la prise de décision, l'attention ou encore le traitement de l'information soutiennent mes propositions d'interfaces.",
         "INDEX_MOCKUPS_TITLE": "Conception de maquettes",
-        "INDEX_MOCKUPS_TEXT": "Prototype papier ou informatique pour traduire les besoins en interfaces. Elles me servent à tester les concepts avant leur développement pour vous éviter de perdre du temps et de l'argent, et ça c'est important pour vous :)",
+        "INDEX_MOCKUPS_TEXT": "Prototype papier ou informatique pour traduire les besoins en interfaces. Elles me servent à tester les concepts avant leur développement pour vous éviter de perdre du temps et de l'argent, et ça c'est important pour vous <i class=\"far fa-smile\"></i>",
         "INDEX_AGILITY_TITLE": "Agilité",
         "INDEX_AGILITY_TEXT": "L'essence même de l'UX Design ! Travailler en sprints courts pour confronter les concepts choisis avec la réalité du terrain, et vérifier qu'on ne fait pas fausse route.",
         "INDEX_ALL_PROJECTS": "Tous les projets",
@@ -227,7 +227,7 @@ let dictionary = {
         "CONTACT_SEND": "Envoyer",
         "FOOTER_LINKEDIN": "LinkedIn",
         "FOOTER_OPINION": "Votre avis m'intéresse",
-        "FOOTER_OPINION_TEXT": "Si vous êtes ici, ce site devrait être conçu pour répondre à vos attentes. Satisfait ou pas, je serais heureux d'avoir votre retour, n'hésitez pas à m'envoyer <a class='orange-link' href='./contact.html?lang=fr' target='_blank'>un mail</a>.",
+        "FOOTER_OPINION_TEXT": "Si vous êtes ici, ce site devrait être conçu pour répondre à vos attentes. Satisfait ou pas, je serais heureuse d'avoir votre retour, n'hésitez pas à m'envoyer <a class='orange-link' href='./contact.html?lang=fr' target='_blank'>un mail</a>.",
     }
 }
 
