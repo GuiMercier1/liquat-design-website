@@ -2,12 +2,12 @@
     "projects": [
         {
             "fr_title": "Interface Callcenter",
-            "imageSrc": "projects/armee_de_terre.png",
+            "imageSrc": "projects/callcenter.png",
             "fr_shortDescription": "Refonte d’une interface métier pour les opérateurs de centrales de réservation dans le métier du tourisme.",
-            "fr_longDescription": "",
+            "fr_longDescription": "Des campings de luxe proposant un système de réservation de vacances par téléphone voulaient rendre leurs interfaces plus fluides pour leurs opérateurs. ",
             "customer": "CToutVert",
             "company": "CToutVert",
-            "id": "ctoutvert",
+            "id": "ctv1",
             "opacity": 0.3,
             "tags": [
                 "UX-DESIGN",
@@ -22,13 +22,13 @@
                     "fr": "Entretiens avec les opérateurs"
                 },
                 {
-                    "fr": "Conception d’une nouvelle interface sur le logiciel Axure"
+                    "fr": "Tests avec les opérateurs sur l’interface existante"
+                },
+                {
+                    "fr": "Conception d’une nouvelle interface (sur le logiciel Axure)"
                 },
                 {
                     "fr": "Tests de l’interface avec les opérateurs selon des scénarios d’appels classiques et hors norme"
-                },
-                {
-                    "fr": "Refonte de l’interface d’administration des campings"
                 }
             ],
             "tools": [
@@ -36,13 +36,48 @@
             ]
         },
         {
-            "fr_title": "Techniciens Orange",
-            "imageSrc": "projects/armee_de_terre.png",
-            "fr_shortDescription": "Analyse de l’activité des techniciens Orange pour la refonte de leur application métier.",
-            "fr_longDescription": "",
+            "fr_title": "Interface gestion de camping",
+            "imageSrc": "projects/camping.jpg",
+            "fr_shortDescription": "Refonte de l’interface d’administration de campings",
+            "fr_longDescription": "L’interface d'administration pour les gérants de campings était vieillissante et de nombreuses fonctionnalités avaient été rajouté au fil du temps sans réelle réflexion sur la logique d’utilisation. Les gérants n’étant pas disponibles le travail de refonte a été fait avec l’appui des opératrices de la hotline qui utilisent l’interface pour configurer les informations lorsque les gérants ne souhaitent pas le faire eux-mêmes.",
+            "customer": "CToutVert",
+            "company": "CtoutVert",
+            "id": "ctv2",
+            "opacity": 0.3,
+            "tags": [
+                "UX-DESIGN",
+                "WEB-DEV",
+                "MARKETING"
+            ],
+            "tasks": [
+                {
+                    "fr": "Evaluation heuristique de l’interface existante"
+                },
+                {
+                    "fr": "Entretiens et observations des opératrices de la hotline chargées de guider les gérants dans l’administration de leur camping "
+                },
+                {
+                    "fr": "Card sorting avec les opératrices de la hotline pour générer une nouvelle architecture de l’interface"
+                },
+                {
+                    "fr": "Conception de maquettes de l’interface (sur le logiciel Axure)"
+                },
+                {
+                    "fr": "Validation de la structure et des fonctions de la nouvelle interface avec les opératrices de la hotline"
+                }
+            ],
+            "tools": [
+                "En cours d'écriture..."
+            ]
+        },
+        {
+            "fr_title": "Interface appli techniciens",
+            "imageSrc": "projects/techniciens.png",
+            "fr_shortDescription": "Analyse de l’activité des techniciens Orange pour la refonte de leur application métier",
+            "fr_longDescription": "Les concepteurs de l’application avaient besoin d’avoir une vision fidèle de l’activité des techniciens Orange (et sous traitant) pour proposer des fonctionnalités pertinentes.",
             "customer": "Orange",
             "company": "Human Design Group",
-            "id": "HDG",
+            "id": "HDG2",
             "opacity": 0.3,
             "tags": [
                 "UX-DESIGN",
@@ -65,39 +100,10 @@
             ]
         },
         {
-            "fr_title": "Portail ingénieurs commerciaux",
-            "imageSrc": "projects/armee_de_terre.png",
-            "fr_shortDescription": "Refonte d’un portail à destination des Ingénieurs commerciaux d’Orange.",
-            "fr_longDescription": "",
-            "customer": "Orange",
-            "company": "Human Design Group",
-            "id": "HDG2",
-            "opacity": 0.3,
-            "tags": [
-                "UX-DESIGN",
-                "WEB-DEV",
-                "MARKETING"
-            ],
-            "tasks": [
-                {
-                    "fr": "Définition des buts et besoins des ingénieurs"
-                },
-                {
-                    "fr": "Maquettage d’un nouveau portail"
-                },
-                {
-                    "fr": "Tests de l'interface avec les ingénieurs"
-                }
-            ],
-            "tools": [
-                "En cours d'écriture..."
-            ]
-        },
-        {
             "fr_title": "Evaluation de la charge de travail",
-            "imageSrc": "projects/armee_de_terre.png",
-            "fr_shortDescription": "Création d’une grille d’évaluation de la charge de travail en vue de l‘automatisation des postes de travail chez Orange.",
-            "fr_longDescription": "",
+            "imageSrc": "projects/charge.png",
+            "fr_shortDescription": "Création d’une grille d’évaluation de la charge de travail en vue de l‘automatisation des postes de travail chez Orange",
+            "fr_longDescription": "En vue d’une automatisation des tâches les chefs de projets souhaitaient un moyen d’évaluer quelles tâches devaient être conservées, lesquelles pouvaient être automatisées, lesquelles étaient considérées comme rébarbatives...",
             "customer": "Orange",
             "company": "Orange",
             "id": "Orange",
@@ -124,9 +130,9 @@
         },
         {
             "fr_title": "Projet Scorpion",
-            "imageSrc": "projects/armee_de_terre.png",
+            "imageSrc": "projects/militaire.jpg",
             "fr_shortDescription": "Etude amont sur l’intégration de nouvelles technologies dans les véhicules militaires.",
-            "fr_longDescription": "",
+            "fr_longDescription": "L’armée de terre souhaitait de nouveaux véhicules pour ses armées et voulaient les doter de nouvelles technologies pour les rendre plus sécuritaires et performants.",
             "customer": "Direction Générale de l'Armement",
             "company": "UTBM",
             "id": "UTBM",
@@ -145,6 +151,9 @@
                 },
                 {
                     "fr": "Focus group avec les militaires sur une présélection de technologies"
+                },
+                {
+                    "fr": "Participation aux Technodays de Thales pour faire tester des technologies à un groupe de militaires"
                 }
             ],
             "tools": [
@@ -152,8 +161,8 @@
             ]
         },
         {
-            "fr_title": "Electroscop",
-            "imageSrc": "projects/armee_de_terre.png",
+            "fr_title": "Elektroscop",
+            "imageSrc": "projects/elektroscop.png",
             "fr_shortDescription": "Refonte d’un portail à destination des Ingénieurs commerciaux d’Orange.",
             "fr_longDescription": "J'ai souhaité faire un site \"vendeur\", mais qui respecte mes valeurs et ma personnalité, à savoir l'humour, l'adaptabilité, la sociabilité, et d'autres que je vous laisse découvrir ici. J'ai relevé ce challenge de mêler le ludique et le sérieux et vous êtes seuls juges de sa réussite !<br /><br />J'ai appliqué ma stratégie UX (analyse des besoins, idéation, maquettes, feedbacks utilisateurs, ...) pour vous proposer une expérience utile - à vous comme à moi - et agréable.<br /><br />N'hésitez pas à me faire le moindre retour !",
             "customer": "Orange",

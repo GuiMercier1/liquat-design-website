@@ -1,26 +1,22 @@
-/* Paletton : http://paletton.com/palette.php?uid=3421d0ktgdhiso5o3itAS8ANk4u */
+/* Paletton : http://paletton.com/#uid=23g0y0kmYu1dqJ4iIzlsurEu0ll */
 
-/* NOTE BLEU COOL 1D84A6 */
-
-@font-face {
-    font-family: "hammock-rough";
-    src: url(fonts/HAMMOCK-Rough_Home.otf) format("truetype");
-}
-
-@font-face {
-    font-family: "polya";
-    src: url(fonts/POLYA.otf) format("truetype");
-}
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
     background-color: white;
     /* color:#545454; */
-    font-family: Karla;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Indie Flower', cursive;
 }
 
 nav {
-    background-color: #474486;
+    background-color: #076861;
+}
+
+.menu-link{
+    font-family: 'Indie Flower', cursive;
+    font-size:20px!important;
 }
 
 .keyword_holder {
@@ -28,7 +24,7 @@ nav {
 }
 
 .sidenav {
-    background-color: #474486;
+    background-color: #076861;
     width: 225px;
     height: 100%;
     padding-bottom: 0px;
@@ -40,7 +36,7 @@ nav {
 
 .navbar-header {
     height: 56px;
-    background-color: #3d3b67;
+    background-color: #023A36;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -56,7 +52,7 @@ nav {
 
 .navbar-footer {
     padding: 5px 32px;
-    background-color: #3d3b67;
+    background-color: #023A36;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -69,9 +65,14 @@ nav {
 
 .brand-logo {
     padding-left: 15px!important;
-    font-family: "hammock-rough";
-    font-size: 80px!important;
-    bottom: 15px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px!important;
+    top:5px;
+}
+
+.mobile-logo {
+    top: 18px;
+    position: relative;
 }
 
 @media only screen and (min-width: 992px) {
@@ -109,7 +110,8 @@ h1.page-head-sub-title {
 }
 
 .main-job {
-    color: rgba(0, 0, 0, 0.87)
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: bold;
 }
 
 .main-pic {
@@ -118,6 +120,7 @@ h1.page-head-sub-title {
 
 .title-location {
     margin-top: 40px;
+    font-weight: bold;
 }
 
 .project-card-col {
@@ -145,7 +148,7 @@ h1.page-head-sub-title {
 }
 
 .tag {
-    background-color: #474486;
+    background-color: #076861;
     border-radius: 15px 5px 5px 15px;
     color: white;
     display: inline-block;
@@ -195,20 +198,23 @@ ul.tasks-list>li {
 }
 
 .ref {
-    height: 200px;
+    /* height: 200px; */
+    margin-bottom: 20px;
 }
 
 .ref img {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
 }
 
 footer {
-    background-color: #474486!important;
+    background-color: #076861!important;
 }
 
 .footer-copyright {
-    background-color: #282467!important;
+    background-color: #023A36!important;
 }
 
 footer .link-icon {
@@ -216,6 +222,10 @@ footer .link-icon {
     margin-right: 15px;
     position: relative;
     top: 5px;
+}
+
+.colored-button {
+    background-color: #0F877E;
 }
 
 /********************
@@ -228,7 +238,7 @@ footer .link-icon {
 }
 
 .colored-title {
-    color: #f1770f;
+    color: #DC6D18;
 }
 
 /********************
@@ -273,7 +283,7 @@ footer .link-icon {
 
 .skill-icon i {
     font-size: 35px;
-    color: #474486;
+    color: #DC6D18;
     /* font-weight: bold; */
 }
 
@@ -336,7 +346,7 @@ hr.rule {
 }
 
 .filter {
-    background-color: #474486;
+    background-color: #076861;
     color: white;
     display: inline-block;
     height: 26px;
@@ -349,7 +359,7 @@ hr.rule {
 }
 
 .filter-selected {
-    background-color: #f1770f;
+    background-color: #DC6D18;
 }
 
 .flex {
@@ -362,7 +372,7 @@ hr.rule {
 }
 
 .card .card-content .card-title {
-    color: #f1770f;
+    color: #DC6D18;
     font-weight: bold;
 }
 
@@ -398,7 +408,7 @@ hr.rule {
 }
 
 .popup-header {
-    background-color: #474486;
+    background-color: #076861;
     color: white;
     margin-bottom: 15px;
 }
@@ -409,7 +419,7 @@ hr.rule {
 
 .popup-title {
     font-weight: bold;
-    color: #f1770f;
+    color: #DC6D18;
 }
 
 /**********
@@ -438,7 +448,7 @@ hr.rule {
 .sk-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    background-color: #474486;
+    background-color: #076861;
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
     animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
