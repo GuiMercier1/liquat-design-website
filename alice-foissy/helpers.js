@@ -208,7 +208,7 @@ let dictionary = {
         "RESUME_ORANGE_DATE": "Mars 2017 - Août 2017",
         "RESUME_ORANGE_TEXT": "<ul><li>Conception d’une grille d’évaluation de la charge de travail et d’un modèle de représentation graphique des ressources mobilisées pour réaliser l’activité.</li><li>Soutien sur divers projets du SI.</li></ul>",
         "RESUME_UTBM_TITLE": "UTBM",
-        "RESUME_UTBM_DATE": "Mars 2017 - Août 2017",
+        "RESUME_UTBM_DATE": "Mars 2015 - Sept. 2015",
         "RESUME_UTBM_TEXT": "Recommandations d’intégrations des technologies dans les futurs véhicules militaires pour le projet Scorpion de l’Armée de Terre.<br />UTBM : Université de Technologie Belfort-Montbéliard",
         "RESUME_STUDIES_TITLE": "Etudes",
         "RESUME_ERGO_TITLE": "Master Ergonomie",
