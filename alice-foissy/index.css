@@ -19,8 +19,11 @@ nav {
     font-size: 20px!important;
 }
 
-.keyword_holder {
-    display: none;
+.brand-logo {
+    padding-left: 15px!important;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px!important;
+    top: 5px;
 }
 
 .sidenav {
@@ -63,31 +66,24 @@ nav {
     line-height: normal;
 }
 
-.brand-logo {
-    padding-left: 15px!important;
-    font-family: 'Indie Flower', cursive;
-    font-size: 55px!important;
-    top: 5px;
-}
-
 .mobile-logo {
     top: 18px;
     position: relative;
 }
 
 @media only screen and (min-width: 992px) {
-    #about-section {
+    .about-section {
         min-height: 600px;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    #about-section {
+    .about-section {
         min-height: 300px;
     }
 }
 
-#about-section .container {
+.about-section .container {
     padding-top: 40px;
 }
 
@@ -248,7 +244,7 @@ footer .link-icon {
 .skill-intro {
     color: rgba(0, 0, 0, 0.8);
     margin-top: 35px;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .skill-row {

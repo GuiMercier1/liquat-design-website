@@ -39,7 +39,13 @@ promises.push(new Promise(function (resolve, reject) {
                     // Then we clean the form
                     console.log('SUCCESS!', response.status, response.text);
                 }, function (error) {
-                    M.toast({ html: "Une erreur est survenue. Contactez-moi directement sur mon adresse mail.", classes: "error-toastr" });
+                    if (error.status === 400) {
+                        M.toast({ html: "Une erreur est survenue. Avez-vous confirmé que vous n'êtes pas un robot ?", classes: "error-toastr" });
+                    }
+                    else {
+                        M.toast({ html: "Une erreur est survenue. Contactez-moi directement sur mon adresse mail.", classes: "error-toastr" });
+                    }
+
                     console.log('FAILED...', error);
                 });
         });

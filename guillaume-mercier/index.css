@@ -23,10 +23,6 @@ nav {
     background-color: #474486;
 }
 
-.keyword_holder {
-    display: none;
-}
-
 .sidenav {
     background-color: #474486;
     width: 225px;
@@ -75,18 +71,18 @@ nav {
 }
 
 @media only screen and (min-width: 992px) {
-    #about-section {
+    .about-section {
         min-height: 600px;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    #about-section {
+    .about-section {
         min-height: 300px;
     }
 }
 
-#about-section .container {
+.about-section .container {
     padding-top: 40px;
 }
 

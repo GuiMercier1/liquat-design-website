@@ -1,0 +1,128 @@
+html {
+    background-color: white;
+    /* color:#545454; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* h1, h2, h3, h4, h5 {
+    font-family: 'Indie Flower', cursive;
+} */
+
+.liquat-title{
+    font-family: 'Indie Flower', cursive;
+}
+
+.menu-link {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px!important;
+}
+
+.brand-logo {
+    padding-left: 15px!important;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px!important;
+    top: 5px;
+}
+
+nav {
+    background-color: #1C5C6D;
+}
+
+.sidenav {
+    background-color: #1C5C6D;
+    width: 225px;
+    height: 100%;
+    padding-bottom: 0px;
+}
+
+.sidenav li>a, .sidenav li>a>i {
+    color: white!important;
+}
+
+.navbar-header {
+    height: 56px;
+    background-color: #0B4758;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-header a {
+    height: 100%!important;
+    line-height: 30px!important;
+    padding: 0 32px!important;
+}
+
+.navbar-home {
+    padding-top: 4px;
+}
+
+.navbar-footer {
+    padding: 5px 32px;
+    background-color: #0B4758;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.navbar-footer p {
+    color: white;
+    line-height: normal;
+}
+
+/* @media only screen and (min-width: 992px) {
+    .about-section {
+        min-height: 600px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-section {
+        min-height: 300px;
+    }
+}
+
+.about-section .container {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    #about-title {
+        text-align: center;
+    }
+} */
+
+.mobile-logo {
+    top: 18px;
+    position: relative;
+}
+
+h1.page-head-title {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.9466666667rem 0 1.168rem 0;
+}
+
+h1.page-head-sub-title {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 2.3733333333rem 0 1.424rem 0;
+}
+
+.link-titles {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.main-pic {
+    width: 70%;
+}
+
+.title-location {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #1C5C6D!important;
+}
+
+.footer-copyright {
+    background-color: #0B4758!important;
+}

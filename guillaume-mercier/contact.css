@@ -21,3 +21,7 @@
     background-color:#bd362f;
     color:white;
 }
+
+.g-recaptcha{
+    display: inline-block;
+}
